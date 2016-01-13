@@ -66,17 +66,22 @@ var NTKF_PARAM = {
 								<div class="main">
 			
 <div class="brand_main">
+	<?php if(count($service1)>0):?>
 	<div class="brand_content_1">
-		<img style="display: inline;" src="/assets/images/brand_icon_1.jpg" class="lazy" data-original="/Public/Home/images/brand_icon_1.jpg" alt="" width="100%">	
-		<h2>唯爱与梦想不可辜负</h2>
-		<p>这一切都始于"沛时"创始团队成员的生活。为爱的人提供好的食物选择，从我们遇见一生中重要的伴侣，到迎来一个又一个新的小生命，我们一直如此行动和投入，从未改变。 每一瓶"沛时"都有我们爱的传递。<br><br>我们相信，获得营养美味的放心⾷品不是一种特权，而是每个人本有的权利。我们相信，每一个食品生产商都有责任向人们提供更好的选择。我们为何如此为"沛时"自豪。全部源自 于我们深深的热爱和努力追寻的梦想。</p>
+		<img style="display: inline;" src="<?php echo $service1[0]->thumbnail;?>" class="lazy" alt="" width="100%">	
+		<h2><?php echo $service1[0]->title;?></h2>
+		<p><?php echo $service1[0]->content;?></p>
 	</div>
+	<?php endif;?>
+	<?php if(count($service2)>0):?>
 	<div class="details_content_6">
-		<img src="/assets/images/details_icon_09.jpg" alt="" width="100%">
-		<h2>只有<span>纯纯的</span><br>水果和蔬菜</h2>
-		<p>蔬菜水果汁，这个星球上简单自然的食物，本该毫无保留的展现其原本、自然的味道和营养，我们做到了。这意味着你看到、喝到的"沛时"是真正的蔬菜水果汁，我们拒绝使用任何防腐剂、保鲜剂和调色剂。</p>
+		<img src="<?php echo $service2[0]->thumbnail;?>" alt="" width="100%">
+		<h2><span><?php echo $service2[0]->title;?></span></h2>
+		<!-- <h2>只有<span>纯纯的</span><br>水果和蔬菜</h2> -->
+		<p><?php echo $service2[0]->content;?></p>
 		<a href="/home/productservice">了解"沛时"生产工艺</a>
 	</div>
+	<?php endif;?>
 	<!-- <div class="brand_content_2 clearfix">
 		<div class="brand_content_l"><img  class="lazy" data-original="/Public/Home/images/brand_icon_2.jpg" alt="" width="100%"></div>
 		<div class="brand_content_r">
@@ -84,21 +89,27 @@ var NTKF_PARAM = {
 			<p>我们致力于使美味的果汁只使用自然的水果和蔬菜，包括我们的甜味剂。我们使用龙舌兰糖浆和甜菊糖（使用传统自然工艺提取自龙舌兰茎秆和甜菊叶），0脂肪、极低的热量和低升糖指数，亦能照顾糖尿病患者。</p>
 		</div>
 	</div> -->
+	<?php if(count($service3)>0):?>
 	<div class="brand_content_3 clearfix">
 		<div class="brand_content_l">
-			<h2>产地直接采购</h2>
-			<p>我们从产地直接采购好的原材料，从新疆产地的巴旦木到海南的菠萝，从陕西的富士到江西的橙子，我们与种植蔬菜水果的农民共同分享我们的产品价值观，并在我们所能及的范内努力提高他们的实际收入。</p>
+			<h2><?php echo $service3[0]->title;?></h2>
+			<p><?php echo $service3[0]->content;?></p>
 		</div>
-		<div class="brand_content_r"><img src="/assets/images/brand_icon_3.jpg" class="lazy" alt="" width="100%"></div>
+		<div class="brand_content_r"><img src="<?php echo $service3[0]->thumbnail;?>" class="lazy" alt="" width="100%"></div>
 	</div>
+	<?php endif;?>
+	<?php if(count($service4)>0):?>
 	<div class="brand_content_4">
-		<h2>分享回馈社会</h2>
-		<p>在每年的夏季和冬季，"沛时"全体成员都会前往困难的孤儿院和福利院，和我们的顾客一起为她们送去食物、衣物。"沛时"每位成员在每个季度都有3天的带薪日，我们鼓励每个人用实际行动去支持本地公益。</p>
+		<h2><?php echo $service4[0]->title;?></h2>
+		<p><?php echo $service4[0]->content;?></p>
 	</div>
+	<?php endif;?>
+	<?php if(count($service5)>0):?>
 	<div class="joinus_content_5">
-		<img class="lazy" alt="" src="/assets/images/brand_icon_4.jpg" style="display: inline;" width="100%">
-		<p>一瓶果汁不能改变世界，但我们使之成为可能。</p>
+		<img class="lazy" alt="" src="<?php echo $service5[0]->thumbnail;?>" style="display: inline;" width="100%">
+		<p><?php echo $service5[0]->title;?></p>
 	</div>
+	<?php endif;?>
 </div>
 		</div>
 		<div class="footer">

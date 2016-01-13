@@ -17,6 +17,7 @@
 				<li><a href="/admin/products" class="<?php echo array_key_exists('products',$sider)?'active':'';?>">产品</a></li>
 				<li><a href="/admin/forum" class="<?php echo array_key_exists('forum',$sider)?'active':'';?>">论坛</a></li>
 				<li><a href="/admin/activity" class="<?php echo array_key_exists('activity',$sider)?'active':'';?>">品牌活动</a></li>
+				<li><a href="/admin/service" class="<?php echo array_key_exists('service',$sider)?'active':'';?>">品牌理念</a></li>
 			</ul>
 		</li>
 		<?php /*?>

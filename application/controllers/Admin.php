@@ -98,6 +98,9 @@ class Admin extends CI_Controller {
 	public function activity(){
 		$this->adminCommon('activity','品牌活动');
 	}
+	public function service(){
+		$this->adminCommon('service','品牌理念');
+	}
 	public function products(){
 		$this->adminCommon('products','产品');
 	}

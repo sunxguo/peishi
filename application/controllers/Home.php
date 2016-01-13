@@ -74,10 +74,89 @@ class Home extends CI_Controller {
 		$this->load->view('home/comment',$data);
 	}
 	public function service(){
-		$this->load->view('home/service');
+		$data=array();
+		//品牌理念-品牌信念-1
+		$parameters=array(
+			'result'=>'data',
+			'column'=>7,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['service1']=$this->getdata->getEssays($parameters);
+		//品牌理念-品牌信念-2
+		$parameters=array(
+			'result'=>'data',
+			'column'=>8,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['service2']=$this->getdata->getEssays($parameters);
+		//品牌理念-品牌信念-3
+		$parameters=array(
+			'result'=>'data',
+			'column'=>9,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['service3']=$this->getdata->getEssays($parameters);
+		//品牌理念-品牌信念-4
+		$parameters=array(
+			'result'=>'data',
+			'column'=>10,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['service4']=$this->getdata->getEssays($parameters);
+		//品牌理念-品牌信念-5
+		$parameters=array(
+			'result'=>'data',
+			'column'=>11,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['service5']=$this->getdata->getEssays($parameters);
+		$this->load->view('home/service',$data);
 	}
 	public function productservice(){
-		$this->load->view('home/productservice');
+		$data=array();
+		//品牌理念-产品工艺-1
+		$parameters=array(
+			'result'=>'data',
+			'column'=>12,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice1']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-2
+		$parameters=array(
+			'result'=>'data',
+			'column'=>13,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice2']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-3
+		$parameters=array(
+			'result'=>'data',
+			'column'=>14,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice3']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-4
+		$parameters=array(
+			'result'=>'data',
+			'column'=>15,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice4']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-5
+		$parameters=array(
+			'result'=>'data',
+			'column'=>16,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice5']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-6
+		$parameters=array(
+			'result'=>'data',
+			'column'=>17,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice6']=$this->getdata->getEssays($parameters);
+		$this->load->view('home/productservice',$data);
 	}
 	public function brand(){
 		//'品牌活动'
@@ -89,7 +168,7 @@ class Home extends CI_Controller {
 		$data['pinpaihuodong']=$this->getdata->getEssays($parameters);
 		$this->load->view('home/brand',$data);
 	}
-	public function hpp(){
+	public function hpp(){ 
 		$this->load->view('home/hpp');
 	}
 	public function contactus(){

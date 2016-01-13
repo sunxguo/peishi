@@ -69,57 +69,54 @@ var NTKF_PARAM = {
 		<h2>"沛时"产品准则</h2>
 		<p>我们承诺给到你新鲜的果蔬汁</p>
 		<ul>
+			<?php foreach($productservice1 as $ps):?>
 			<li>
-				<img style="display: inline;" src="/assets/images/product_icon_01.png" class="lazy" data-original="/Public/Home/images/product_icon_01.png" alt="">
+				<img style="display: inline;" src="<?php echo $ps->thumbnail;?>" class="lazy" data-original="/Public/Home/images/product_icon_01.png" alt="">
 				<div>
-					<h3>接单鲜榨</h3>
-					"沛时"是行业中的“少数派”，我们从来不囤积水果和蔬菜，而是每天采购新鲜的高品质果蔬，在收到订单后，立刻进行榨汁，这是每一瓶"沛时"都鲜美可口的秘密之一。
+					<h3><?php echo $ps->title;?></h3>
+					<?php echo $ps->content;?>
 				</div>
 			</li>
-			<li>
-				<img style="display: inline;" src="/assets/images/product_icon_02.png" class="lazy" data-original="/Public/Home/images/product_icon_02.png" alt="">
-				<div style="border:none">
-					<h3>HPP超高压灭菌</h3>
-					传统果蔬汁采用高温灭菌技术，果蔬汁被“煮熟”，大量营养流失。"沛时"创新采用先进的HPP超高压灭菌技术，全程低温生产，保留果蔬汁的生鲜口感和丰富营养，给你原汁原味的享受。
-				</div>
-			</li>
-			<li>
-				<img style="display: inline;" src="/assets/images/product_icon_03.png" class="lazy" data-original="/Public/Home/images/product_icon_03.png" alt="">
-				
-				<div>
-					<h3>保留果肉</h3>
-					我们在果蔬汁中加入新鲜果肉，为你补充膳食纤维，促进身体代谢重金属和多余胆固醇，帮助肠胃“大扫除”。我们拒绝添加稳定剂，因此果肉果汁会分层，这是自然现象，摇一摇喝起来啦！
-				</div>
-			</li>
+			<?php endforeach;?>
 		</ul>
 	</div>
+	<?php if(count($productservice2)>0):?>
 	<div class="technics_content_1">
-		<img style="display: inline;" src="/assets/images/pro_banner.jpg" class="lazy" data-original="images/pro_banner.jpg" alt="" width="100%">
+		<img style="display: inline;" src="<?php echo $productservice2[0]->thumbnail;?>" class="lazy" data-original="images/pro_banner.jpg" alt="" width="100%">
 	</div>
+	<?php endif;?>
+	<?php if(count($productservice3)>0):?>
 	<div class="technics_content_2">
-		<img class="lazy" src="/assets/images/technics_icon_1.jpg" alt="" width="100%">
-		<h2>完美的工厂所在地</h2>
-		<p>2014年，"沛时"在雁栖湖畔(2014 APEC会议举办地)的雁栖经济技术开发区，收购了这家完美的果蔬汁生产工厂。对我们来说，"沛时"的梦想落地，从这里出发，我们每天将数以万计的"沛时"e发往每个人。</p>
+		<img class="lazy" src="<?php echo $productservice3[0]->thumbnail;?>" alt="" width="100%">
+		<h2><?php echo $productservice3[0]->title;?></h2>
+		<p><?php echo $productservice3[0]->content;?></p>
 	</div>
+	<?php endif;?>
+	<?php if(count($productservice4)>0):?>
 	<div class="technics_content_3">
-		<img class="lazy" src="/assets/images/technics_icon_2.jpg" alt="" width="100%">
+		<img class="lazy" src="<?php echo $productservice4[0]->thumbnail;?>" alt="" width="100%">
 		<p><img src="/assets/images/product_icon_w.png"></p>
-		<h2>低温冷榨技术(Cold-Pressed)</h2>
+		<h2><?php echo $productservice4[0]->title;?></h2>
 	</div>
 	<div class="technics_content_4">
-		<p>新鲜的蔬菜水果在低温环境下破碎、慢速挤压，减少与空气接触氧化以及高温对营养和口味的破坏，可以压榨出品口感一流和营养丰富的果蔬汁。<br><br>"沛时"采用低温冷榨技术获得果蔬汁，同时根据我们营养学家团队的科学设计，在每一瓶"沛时"中按不同比例添加新鲜果肉，这也是为什么"沛时"清体效果这么好的小秘密。<br><br>作为市场上排毒效果和口碑好的品牌，"沛时"在北京和上海拥有进口的先进大型冷压设备，以及全流程果蔬汁生产线，大幅降低冷榨果蔬汁成本，让顾客喝到好且价格合理的轻断食果蔬汁。</p>
+		<p><?php echo $productservice4[0]->content;?></p>
 	</div>
+	<?php endif;?>
+	<?php if(count($productservice5)>0):?>
 	<div class="technics_content_5">
-		<img class="lazy" src="/assets/images/technics_icon_3.jpg" alt="" width="100%">
+		<img class="lazy" src="<?php echo $productservice5[0]->thumbnail;?>" alt="" width="100%">
 		<span><img src="/assets/images/product_icon_hpp.png"></span>
-		<h2>超高压灭菌工艺(HPP)</h2>
-		<p>超高压灭菌就是在密闭的超高压容器内，用水作为介质对果蔬汁施以400～600MPa的压力(4000~6000个大气压)。从而杀死其中几乎所有的细菌、霉菌和酵母菌，而且不会像通常所见的高温杀菌那样造成营养成分破坏和风味变化。</p>
+		<h2><?php echo $productservice5[0]->title;?></h2>
+		<p><?php echo $productservice5[0]->content;?></p>
 		<a href="/home/hpp">了解详情</a>
 	</div>
+	<?php endif;?>
+	<?php if(count($productservice6)>0):?>
 	<div class="technics_content_6">
-		<img class="lazy" src="/assets/images/technics_icon_4.jpg" alt="" width="100%">
-		<p>如果我们不能做到，不如不做。</p>
+		<img class="lazy" src="<?php echo $productservice6[0]->thumbnail;?>" alt="" width="100%">
+		<p><?php echo $productservice6[0]->title;?></p>
 	</div>
+	<?php endif;?>
 </div>
 		</div>
 				<div class="footer">
