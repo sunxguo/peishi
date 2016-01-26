@@ -6,7 +6,7 @@
 	<meta name="description" itemprop="description" content="轻断食果蔬汁沛时，3天变美计划。营养学家设计的冷压鲜榨果蔬汁餐单，每天6瓶连续3天，排出体内毒素，激发细胞修复力，减去多余脂肪、美颜、身体变轻盈，充满青春活力！新鲜水果与蔬菜冷压鲜榨，全程冷链免费送达。">
 	<meta name="description" itemprop="name" content="轻断食果蔬汁沛时，3天变美计划">
 	<meta name="description" itemprop="image" content="/assets/images/re_index_logo.png">
-	<title>轻断食果蔬汁沛时，3天变美计划</title>
+	<title><?php echo WEBSITE_TITLE;?></title>
 	<script src="index_files/v.htm" charset="utf-8"></script>
 	<script src="/assets/js/ntkfstat.js" charset="utf-8" async="" type="text/javascript"></script>
 	<script type="text/javascript" src="/assets/js/base.js"></script>
