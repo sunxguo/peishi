@@ -65,12 +65,12 @@ var NTKF_PARAM = {
 		<div class="details_pro clearfix">
 			<img src="/assets/images/details_icon_01.png" alt="">
 			<ul>
-				<li class="f32 ProductName">轻断食果蔬汁 经典款</li>
-				<li class="w328 ProductInfo">这是一个连续3天的清体计划，适合每个月一次。3天18瓶，帮助缓解皮肤油腻现状，促进新陈代谢，让身体感觉轻盈没负担。</li>
+				<li class="f32 ProductName"><?php echo $product->title;?></li>
+				<li class="w328 ProductInfo"><?php echo $product->summary;?></li>
 				<li class="mt30">￥<span class="ProductPrice">490.00</span> / 套（附赠保温包）</li>
 				<li>
 					<div class="pro_ment">
-						<a data-product-id="1" data-product-price="490.00" data-product-info="这是一个连续3天的清体计划，适合每个月一次。3天18瓶，帮助缓解皮肤油腻现状，促进新陈代谢，让身体感觉轻盈没负担。" data-product-name="轻断食果蔬汁 经典款" class="CheckProduct CheckProduct1 this" href="javascript:;">三天装</a><a data-product-id="2" data-product-price="230.00" data-product-info="适合体验型顾客，或者临时补救（比如吃了一天火锅），主要用来清理肠胃。如果想获得更好的效果，需要在前后两天都保持健康饮食，多吃蔬菜水果。					" data-product-name="轻断食果蔬汁 经典款" class="CheckProduct CheckProduct2" href="javascript:;">一天装</a>					</div>
+						<a data-product-id="1" data-product-price="490.00" data-product-info="<?php echo $product->summary;?>" data-product-name="<?php echo $product->title;?>" class="CheckProduct CheckProduct1 this" href="javascript:;">三天装</a><a data-product-id="2" data-product-price="230.00" data-product-info="适合体验型顾客，或者临时补救（比如吃了一天火锅），主要用来清理肠胃。如果想获得更好的效果，需要在前后两天都保持健康饮食，多吃蔬菜水果。					" data-product-name="轻断食果蔬汁 经典款" class="CheckProduct CheckProduct2" href="javascript:;">一天装</a>					</div>
 					
 					<div data-product-id="2" class="add_cart ShoppingCarAdd">购买</div>
 				</li>
@@ -81,7 +81,7 @@ var NTKF_PARAM = {
 		<table>
 			<tbody><tr>
 				<td rowspan="2"><img src="/assets/images/details_icon_01.png" height="90"></td>
-				<td class="f24 ProductName">轻断食果蔬汁 经典款</td>
+				<td class="f24 ProductName"><?php echo $product->title;?></td>
 				<td>￥<span class="ProductPrice">490.00</span>元/套(附赠保温包)</td>	
 				<td>
 					<div class="pro_ment">

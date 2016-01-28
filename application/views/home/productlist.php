@@ -65,40 +65,16 @@
 			<p></p>
 		</div>
 		<div class="product_content_4 clearfix">
-					<ul>
-				<a href="/home/product">
-					<li><img src="/assets/images/product_01.png" alt="" height="146" width="266"></li>
-					<li>轻断食果蔬汁 经典款 </li>
-					<li>这是一个连续3天的清体计划，适合每个月一次。3天18瓶，帮助缓解皮肤油腻现状，促进新陈代谢，让身体感觉轻盈没负担。</li>
-				</a>
-				<li>
-					<!-- start -->
-									<!-- end -->
-				</li>
-			</ul>
-					<ul>
-				<a href="/home/product">
-					<li><img src="/assets/images/product_02.png" alt="" height="146" width="266"></li>
-					<li>轻断食果蔬汁 暖身款 </li>
-					<li>2015，"沛时"暖身款全新升级啦！热量低、维生素种类更丰富，为轻断食之旅增添更多机体活力。可加热婴儿奶瓶PP材质瓶身，分秒“叮”出美味，暖色调瓶搭配萌萌毛线帽，在寒冷的季节里将你萌化。</li>
-				</a>
-				<li>
-					<!-- start -->
-									<!-- end -->
-				</li>
-			</ul>
+			<?php foreach ($products as $product):?>
 			<ul>
-				<a href="/home/product">
-					<li><img src="/assets/images/product_03.png" alt="" height="146" width="266"></li>
-					<li>轻断食果蔬汁 暖身款 </li>
-					<li>2015，"沛时"暖身款全新升级啦！热量低、维生素种类更丰富，为轻断食之旅增添更多机体活力。可加热婴儿奶瓶PP材质瓶身，分秒“叮”出美味，暖色调瓶搭配萌萌毛线帽，在寒冷的季节里将你萌化。</li>
+				<a href="/home/product?id=<?php echo $product->id;?>">
+					<li><img src="<?php echo $product->thumbnail;?>" alt="" height="146" width="266"></li>
+					<li><?php echo $product->title;?></li>
+					<li><?php echo $product->summary;?></li>
 				</a>
-				<li>
-					<!-- start -->
-									<!-- end -->
-				</li>
 			</ul>
-				</div>
+			<?php endforeach;?>
+		</div>
 		<div class="product_content_1">
 			<h2>"沛时"产品准则</h2>
 			<p>我们承诺给到你新鲜的果蔬汁</p>
@@ -135,22 +111,19 @@
 							</div>
 							<div class="footer_info">
 								<div class="eq_code">
-									<p>微信公众号：persejuice</p>
-									<p>客服微信号：persefamily</p>
-									<p>咨询电话：	4006 801 201</p>
-									<p>沛时官网：	www.perse.cn</p>
+									<?php if(isset($cidibuzuo[0])):?>
+										<?php echo $cidibuzuo[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="about_we">
-									<p class="about_h1"style="margin-top:10px;">联系“沛时”获得在线支持</p>
-									<p class="f12">7x13小时专心服务,请通过任意方式联系我们</p>
-									<ul class="iconfont" style="margin-top:20px;">
-										<li><img src="/assets/images/weixin.png"></li>
-										<li><img src="/assets/images/weibo.png"></li>
-										<li><img src="/assets/images/taobao.png"></li>
-									</ul>	
+									<?php if(isset($cidibuzhong[0])):?>
+										<?php echo $cidibuzhong[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
-									沛于己<br>时在行!
+									<?php if(isset($cidibuyou[0])):?>
+										<?php echo $cidibuyou[0]->content;?>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>
@@ -163,8 +136,12 @@
 								<li><a href="http://www.heyjuice.cn/Delivery/index"></a></li>
 							</ul>
 							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
-			               	    <p>北京沛时之初饮品有限公司&nbsp&nbsp&nbsp&nbsp京ICP备14012740号 ©沛时 2014&nbsp&nbsp&nbsp&nbsp海淀区上地十街1号院1号楼辉煌国际大厦1609室 </p>
-	                       	</div>
+			               		<p>
+			               	    	<?php if(isset($dibu[0])):?>
+										<?php echo $dibu[0]->content;?>
+									<?php endif;?>
+								</p>
+			               	</div>
 						</div>
 					</div>
 		<!-- 弹出层 -->

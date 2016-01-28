@@ -23,6 +23,55 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['qingduanguoshus']=$this->getdata->getEssays($parameters);
+		//"沛时"轻断食果蔬汁3天变美计划
+		$parameters=array(
+			'result'=>'data',
+			'column'=>19,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['santianbianmei']=$this->getdata->getEssays($parameters);
+		//首页-每日六瓶（3天变美计划下面）
+		$parameters=array(
+			'result'=>'data',
+			'column'=>20,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['meiriliuping']=$this->getdata->getEssays($parameters);
+		//首页-部分评论展示右上部banner（每日六瓶下面）
+		$parameters=array(
+			'result'=>'data',
+			'column'=>21,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['bufenpinglunyoushang']=$this->getdata->getEssays($parameters);
+		//首页-次底部-左
+		$parameters=array(
+			'result'=>'data',
+			'column'=>22,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		//首页-次底部-中
+		$parameters=array(
+			'result'=>'data',
+			'column'=>24,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzhong']=$this->getdata->getEssays($parameters);
+		//首页-次底部-右
+		$parameters=array(
+			'result'=>'data',
+			'column'=>25,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-底部
+		$parameters=array(
+			'result'=>'data',
+			'column'=>23,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dibu']=$this->getdata->getEssays($parameters);
 		//沛时左侧滚动图
 		$parameters=array(
 			'result'=>'data',
@@ -49,7 +98,13 @@ class Home extends CI_Controller {
 		$this->load->view('home/index',$data);
 	}
 	public function product(){
-		$this->load->view('home/product');
+		if(!isset($_GET['id']) || !is_numeric($_GET['id'])){
+			$this->load->view('redirect',array('info'=>'地址错误！'));
+			return false;
+		}
+		$id=$_GET['id'];
+		$data['product']=$this->getdata->getContent('essay',$id);
+		$this->load->view('home/product',$data);
 	}
 	public function essay(){
 		if(!isset($_GET['id']) || !is_numeric($_GET['id'])){
@@ -61,9 +116,74 @@ class Home extends CI_Controller {
 		$this->load->view('home/essay',$data);
 	}
 	public function productlist(){
-		$this->load->view('home/productlist');
+		$data=array();
+		//首页-次底部-左
+		$parameters=array(
+			'result'=>'data',
+			'column'=>22,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		//首页-次底部-中
+		$parameters=array(
+			'result'=>'data',
+			'column'=>24,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzhong']=$this->getdata->getEssays($parameters);
+		//首页-次底部-右
+		$parameters=array(
+			'result'=>'data',
+			'column'=>25,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-底部
+		$parameters=array(
+			'result'=>'data',
+			'column'=>23,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dibu']=$this->getdata->getEssays($parameters);
+		//'商品列表'
+		$parameters=array(
+			'result'=>'data',
+			'column'=>4,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['products']=$this->getdata->getEssays($parameters);
+		$this->load->view('home/productlist',$data);
 	}
 	public function comment(){
+		$data=array();
+		//首页-次底部-左
+		$parameters=array(
+			'result'=>'data',
+			'column'=>22,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		//首页-次底部-中
+		$parameters=array(
+			'result'=>'data',
+			'column'=>24,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzhong']=$this->getdata->getEssays($parameters);
+		//首页-次底部-右
+		$parameters=array(
+			'result'=>'data',
+			'column'=>25,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-底部
+		$parameters=array(
+			'result'=>'data',
+			'column'=>23,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dibu']=$this->getdata->getEssays($parameters);
 		//'论坛'
 		$parameters=array(
 			'result'=>'data',
@@ -159,6 +279,42 @@ class Home extends CI_Controller {
 		$this->load->view('home/productservice',$data);
 	}
 	public function brand(){
+		$data=array();
+		//首页-次底部-左
+		$parameters=array(
+			'result'=>'data',
+			'column'=>22,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		//首页-次底部-中
+		$parameters=array(
+			'result'=>'data',
+			'column'=>24,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzhong']=$this->getdata->getEssays($parameters);
+		//首页-次底部-右
+		$parameters=array(
+			'result'=>'data',
+			'column'=>25,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-底部
+		$parameters=array(
+			'result'=>'data',
+			'column'=>23,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dibu']=$this->getdata->getEssays($parameters);
+		//顶部图片
+		$parameters=array(
+			'result'=>'data',
+			'column'=>26,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dingbu']=$this->getdata->getEssays($parameters);
 		//'品牌活动'
 		$parameters=array(
 			'result'=>'data',
@@ -168,8 +324,44 @@ class Home extends CI_Controller {
 		$data['pinpaihuodong']=$this->getdata->getEssays($parameters);
 		$this->load->view('home/brand',$data);
 	}
-	public function hpp(){ 
-		$this->load->view('home/hpp');
+	public function hpp(){
+		$data=array();
+		//首页-次底部-左
+		$parameters=array(
+			'result'=>'data',
+			'column'=>22,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		//首页-次底部-中
+		$parameters=array(
+			'result'=>'data',
+			'column'=>24,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuzhong']=$this->getdata->getEssays($parameters);
+		//首页-次底部-右
+		$parameters=array(
+			'result'=>'data',
+			'column'=>25,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-底部
+		$parameters=array(
+			'result'=>'data',
+			'column'=>23,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['dibu']=$this->getdata->getEssays($parameters);
+		//Hpp
+		$parameters=array(
+			'result'=>'data',
+			'column'=>18,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['hpps']=$this->getdata->getEssays($parameters);
+		$this->load->view('home/hpp',$data);
 	}
 	public function contactus(){
 		$this->load->view('home/contactus');

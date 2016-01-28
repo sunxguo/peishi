@@ -103,15 +103,19 @@
 				<?php endforeach;?>
 			</div>
 		</div>
+		<?php if(isset($santianbianmei[0])):?>
 		<div class="re_index_02">
 			<div class="re_index_02_three">
 				<div class="re_index_02_tit">"沛时"轻断食果蔬汁<span>3</span>天变美计划</div>
-				<p>每月定时轻断食，严格控制热量摄入，每天600~800卡路里的冷压果蔬汁餐单，为身体提供必须营养和能量的同时，消耗掉身体多余的糖分和脂肪，以健康的方式控制体重，获得好身材。</p>
-				<p class="pt10 pb10">控制热量同时降低体内IGF-1（类胰岛素一号生长因子）含量，让身体细胞从活跃新增模式转入对现有细胞的修复模式，清除体内毒素，呈现最佳肤色肤质，身体变轻盈，充满青春活力。</p>
-				<img src="/assets/images/re_index_01.png">
+				<!-- <p>每月定时轻断食，严格控制热量摄入，每天600~800卡路里的冷压果蔬汁餐单，为身体提供必须营养和能量的同时，消耗掉身体多余的糖分和脂肪，以健康的方式控制体重，获得好身材。</p> -->
+				<p class="pt10 pb10"><?php echo $santianbianmei[0]->content;?></p>
+				<img src="<?php echo $santianbianmei[0]->thumbnail;?>">
 			</div>
 		</div>
-		<div class="re_index_03"><img src="/assets/images/re_index_02.png" width="100%"></div>
+		<?php endif;?>
+		<?php if(isset($meiriliuping[0])):?>
+		<div class="re_index_03"><img src="<?php echo $meiriliuping[0]->thumbnail;?>" width="100%"></div>
+		<?php endif;?>
 		<div class="re_index_04">
 			<div class="re_index_04_cont">
 				<div class="re_index_04_box">
@@ -132,7 +136,15 @@
 						</div>
 					</div>
 					<div class="re_index_04_gks">
-						<div class="re_index_gks_t"><a href="/home/comment"><img src="/assets/images/re_index_04.png"></a></div>
+						<div class="re_index_gks_t">
+						<?php if(isset($bufenpinglunyoushang[0])):?>
+							<?php if($bufenpinglunyoushang[0]->islink==1):?>
+							<a href="<?php echo $bufenpinglunyoushang[0]->link;?>"><img src="<?php echo $bufenpinglunyoushang[0]->thumbnail;?>"></a>
+							<?php else:?>
+							<img src="<?php echo $bufenpinglunyoushang[0]->thumbnail;?>">
+							<?php endif;?>
+						<?php endif;?>
+						</div>
 						<div class="re_index_gks_b">
 							<ul class="clearfix mt10">
 								<li>
@@ -316,22 +328,19 @@
 							</div>
 							<div class="footer_info">
 								<div class="eq_code">
-									<p>微信公众号：persejuice</p>
-									<p>客服微信号：persefamily</p>
-									<p>咨询电话：	4006 801 201</p>
-									<p>沛时官网：	www.perse.cn</p>
+									<?php if(isset($cidibuzuo[0])):?>
+										<?php echo $cidibuzuo[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="about_we">
-									<p class="about_h1"style="margin-top:10px;">联系“沛时”获得在线支持</p>
-									<p class="f12">7x13小时专心服务,请通过任意方式联系我们</p>
-									<ul class="iconfont" style="margin-top:20px;">
-										<li><img src="/assets/images/weixin.png"></li>
-										<li><img src="/assets/images/weibo.png"></li>
-										<li><img src="/assets/images/taobao.png"></li>
-									</ul>	
+									<?php if(isset($cidibuzhong[0])):?>
+										<?php echo $cidibuzhong[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
-									沛于己<br>时在行!
+									<?php if(isset($cidibuyou[0])):?>
+										<?php echo $cidibuyou[0]->content;?>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>
@@ -344,7 +353,11 @@
 								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
 							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
-			               	    <p>北京沛时之初饮品有限公司&nbsp&nbsp&nbsp&nbsp京ICP备14012740号 ©沛时 2014&nbsp&nbsp&nbsp&nbsp海淀区上地十街1号院1号楼辉煌国际大厦1609室 </p>
+			               	    <p>
+			               	    	<?php if(isset($dibu[0])):?>
+										<?php echo $dibu[0]->content;?>
+									<?php endif;?>
+								</p>
 	                       	</div>
 						</div>
 					</div>

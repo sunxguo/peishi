@@ -61,7 +61,9 @@ var NTKF_PARAM = {
 			
 <div class="blog_main">
 	<div class="blog_content_1">
-		<img style="display: inline;" src="/assets/images/banner_ab.jpg" class="lazy" data-original="/Public/Home/images/banner_ab.jpg" width="100%">
+		<?php if(isset($dingbu[0])):?>
+		<img style="display: inline;" src="<?php echo $dingbu[0]->thumbnail;?>" class="lazy" width="100%">
+		<?php endif;?>
 	</div>
 	<div class="blog_content_3 clearfix">
 		<?php foreach($pinpaihuodong as $pphd):?>
@@ -84,22 +86,19 @@ var NTKF_PARAM = {
 							</div>
 							<div class="footer_info">
 								<div class="eq_code">
-									<p>微信公众号：persejuice</p>
-									<p>客服微信号：persefamily</p>
-									<p>咨询电话：	4006 801 201</p>
-									<p>沛时官网：	www.perse.cn</p>
+									<?php if(isset($cidibuzuo[0])):?>
+										<?php echo $cidibuzuo[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="about_we">
-									<p class="about_h1"style="margin-top:10px;">联系“沛时”获得在线支持</p>
-									<p class="f12">7x13小时专心服务,请通过任意方式联系我们</p>
-									<ul class="iconfont" style="margin-top:20px;">
-										<li><img src="/assets/images/weixin.png"></li>
-										<li><img src="/assets/images/weibo.png"></li>
-										<li><img src="/assets/images/taobao.png"></li>
-									</ul>	
+									<?php if(isset($cidibuzhong[0])):?>
+										<?php echo $cidibuzhong[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
-									沛于己<br>时在行!
+									<?php if(isset($cidibuyou[0])):?>
+										<?php echo $cidibuyou[0]->content;?>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>
@@ -112,8 +111,12 @@ var NTKF_PARAM = {
 								<li><a href="http://www.heyjuice.cn/Delivery/index"></a></li>
 							</ul>
 							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
-			               	    <p>北京沛时之初饮品有限公司&nbsp&nbsp&nbsp&nbsp京ICP备14012740号 ©沛时 2014&nbsp&nbsp&nbsp&nbsp海淀区上地十街1号院1号楼辉煌国际大厦1609室 </p>
-	                       	</div>
+			               		<p>
+			               	    	<?php if(isset($dibu[0])):?>
+										<?php echo $dibu[0]->content;?>
+									<?php endif;?>
+								</p>
+			               	</div>
 						</div>
 					</div>
 	<!-- 弹出层 -->
