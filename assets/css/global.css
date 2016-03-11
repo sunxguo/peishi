@@ -640,7 +640,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .QaMentBg{background: #7ac143; width: 227px; height: 60px; position: absolute; top: 0;}
 /*关于我们*/
 .main_about { padding: 0px 0 150px 0;}
-		.main_about_tree { margin-top: 70px; background: url('../images/about_tree_bg.png') repeat-y center; position: relative; height: 1430px;}
+		.main_about_tree { margin-top: 70px; background: url('../images/about_tree_bg.png') repeat-y center; position: relative; height: 2300px;}
 			.about_tree_box { position: absolute; left: 50%;}
 				.about_tree_title { color: #ff9a69; font-size: 18px;}
 				.left .about_tree_title { text-align: right;}
@@ -661,10 +661,12 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 				.right.bg_o .about_tree_icon { border-right: 11px solid #03b0da; left: -11px; top:0;}
 				.right.bg_b .about_tree_icon { border-right: 11px solid #7ac143; left: -11px; top:0;}
 				.left.bg_o .about_tree_icon { border-left: 11px solid #03b0da; right: -11px; top:0;}
-			.about_tree_box.box1 { width: 320px; margin-left: 43px; bottom: 600px;}
+			.about_tree_box.box1 { width: 320px; margin-left: 43px; bottom: 1570px;}
 				.about_tree_box.box1 .about_tree_content { padding: 15px;}
-			.about_tree_box.box2 { margin-left: -292px; bottom: 480px;}
+				.about_tree_box.box1 img { position: absolute; bottom: 0; right: -120px; height:150px;}
+			.about_tree_box.box2 { margin-left: -325px; bottom: 970px;}
 				.about_tree_box.box2 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
+				.about_tree_box.box2 img { position: absolute; left: -130px; top: 0; height:150px; width:110px;}
 			.about_tree_box.box3 { width: 250px; margin-left: -293px; bottom: 1720px;}
 				.about_tree_box.box3 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
 				.about_tree_box.box3 img { position: absolute; bottom: 0; left: -140px;}
@@ -673,29 +675,30 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 				.about_tree_box.box4 img { position: absolute; bottom: 60px; right: 0;}
 			.about_tree_box.box5 { width: 285px; margin-left: -328px; bottom: 1400px;}
 				.about_tree_box.box5 .about_tree_content { padding: 15px;}
-			.about_tree_box.box6 { width: 215px; margin-left: 42.5px; bottom: 320px;}
-				.about_tree_box.box6 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
-				.about_tree_box.box6 img { position: absolute; bottom: 0px; right: -148px;}
+			.about_tree_box.box6 { width: 215px; margin-left: 42.5px; bottom: 750px;}
+				.about_tree_box.box6 .about_tree_content { height: 100px; width:380px; line-height:25px; padding: 0 15px; top:0;}
+				.about_tree_box.box6 img { position: absolute; bottom: 0px; right: -320px; height:150px; width:110px;}
 			.about_tree_box.box7 { width: 295px; margin-left: -338px; bottom: 1100px;}
 				.about_tree_box.box7 .about_tree_content { line-height: 200%; padding: 15px;}
 				.about_tree_box.box7 img { position: absolute; bottom: 0; left: -140px;}
 			.about_tree_box.box8 { width: 295px; margin-left: 42.5px; bottom: 980px;}
-				.about_tree_box.box8 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
+				.about_tree_box.box8 .about_tree_content { height: 60px;  line-height:60px; padding: 0 15px;}
 			.about_tree_box.box9 { width: 295px; margin-left: -338px; bottom: 820px;}
 				.about_tree_box.box9 .about_tree_content { padding: 15px;}
 			.about_tree_year {box-shadow:2px 2px 2px #ddd; position: absolute; bottom: 180px; left: 50%; margin-left: -40px; line-height: 80px; font-weight: bold; background: #fff; font-size: 45px; color: #7ac143; text-align: center; height: 80px; width:80px; border-radius: 80px;}
 				.about_tree_year span{position: absolute; left: -10px;}
 			.about_tree_box.box10 { width: 330px; margin-left: 43px; bottom: 480px;}
 				.about_tree_box.box10 .about_tree_content {line-height: 200%; padding: 15px;}
-			.about_tree_box.box11 { width: 250px; margin-left: -293px; bottom: 0px;}
+			.about_tree_box.box11 { width: 250px; margin-left: -293px; bottom: 1300px;}
 				.about_tree_box.box11 .about_tree_content { padding: 15px;}
+				.about_tree_box.box11 img { position: absolute; bottom: 0; left: -170px; height:150px; width:150px;}
 			.about_tree_box.box12 { width: 250px; margin-left: 43px; bottom: 200px;}
 				.about_tree_box.box12 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
 			.about_tree_box.box13 { width: 330px; margin-left: -373.5px; bottom: 60px;}
 				.about_tree_box.box13 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
-			.about_tree_box.box14 { width: 330px; margin-left: 42.5px; bottom: -75px;}
+			.about_tree_box.box14 { width: 330px; margin-left: 42.5px; bottom: 1145px;}
 				.about_tree_box.box14 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
-				.about_tree_box.box14 img { position: absolute; right: 0px; top: 0;}
+				.about_tree_box.box14 img { position: absolute; right: -130px; top: 0; height:150px; width:110px;}
 			.about_tree_box.box15 { width: 250px; margin-left: 42.5px; bottom: 2130px;}
 				.about_tree_box.box15 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
 				.about_tree_box.box15 img { position: absolute; right: 0px; top: 0;}
@@ -705,23 +708,38 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 			.about_tree_box.box17 { width: 295px; margin-left: 42.5px; bottom: 2430px;}
 				.about_tree_box.box17 .about_tree_content { padding:15px;}
 				.about_tree_box.box17 img { position: absolute; right: -110px; top: 0;}
-			.about_tree_box.box18 { width: 209px; margin-left: -251.5px; bottom: 740px;}
+			.about_tree_box.box18 { width: 209px; margin-left: -251.5px; bottom: 1680px;}
 				.about_tree_box.box18 .about_tree_content {  padding:15px;}
-				.about_tree_box.box18 img { position: absolute; right:217px; bottom: 0;}	
-			.main_about_tree .box19 { bottom: 1000px;}
-			.about_tree_box.box20 { width: 330px; margin-left: 42.5px; bottom: 880px;}
+				.about_tree_box.box18 img { position: absolute; right:217px; bottom: 0; height:150px;}	
+			.main_about_tree .box19 { bottom: 1970px;}
+
+			.about_tree_box.box20 { width: 330px; margin-left: 42.5px; bottom: 1790px;}
 				.about_tree_box.box20 .about_tree_content {  padding:15px; width: 200px;}
-				.about_tree_box.box20 img { position: absolute; right: -156px; top: 0;}
+				.about_tree_box.box20 img { position: absolute; right: -130px; bottom: 0; height:150px;}
 			.about_tree_box.box21 { width: 240px; margin-left: -283.5px; bottom: 1130px;}
 				.about_tree_box.box21 .about_tree_content {  padding:15px; width: 200px;}
 				.about_tree_box.box21 img { position: absolute; right: 237px; bottom: 0;}
-			.about_tree_box.box22 { width: 330px; margin-left: 42.5px; bottom: 1250px;}
+			.about_tree_box.box22 { width: 330px; margin-left: 42.5px; bottom: 2130px;}
 				.about_tree_box.box22 .about_tree_content {  padding:15px; width: 200px;}
-				.about_tree_box.box22 img { position: absolute; right: -189px; bottom: 0;}
+				.about_tree_box.box22 img { position: absolute; right: -175px; bottom: 0;}
 			.about_tree_box.box23 { width: 240px; margin-left: -283.5px; bottom: 3330px;}
 				.about_tree_box.box23 .about_tree_content {  padding:15px; width: 200px;}
 				.about_tree_box.box23 img { position: absolute; right: 237px; top: 0;}
-			.main_about_tree .box24 { bottom: 1390px;}
+			.main_about_tree .box24 { bottom: 2260px;}
+			.main_about_tree .box25 { bottom: 1420px;}
+			.about_tree_box.box26 { margin-left: -180px; bottom: 600px;}
+				.about_tree_box.box26 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
+				.about_tree_box.box26 img { position: absolute; left: -220px; top: 0; height:110px; width:190px;}
+			.main_about_tree .box27 { bottom: 440px;}
+			.about_tree_box.box28 { margin-left: -275px; bottom: 300px;}
+				.about_tree_box.box28 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
+				
+			.about_tree_box.box29 { width: 330px; margin-left: 42.5px; bottom: 100px;}
+				.about_tree_box.box29 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
+				.about_tree_box.box29 img { position: absolute; right: -130px; top: 0; height:150px; width:110px;}
+			.about_tree_box.box30 { margin-left: -420px; bottom: -60px;}
+				.about_tree_box.box30 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
+				.about_tree_box.box30 img { position: absolute; left: -140px; top: 0; height:150px; width:110px;}		
 .about_nav{text-align: center; line-height: 50px; background: #e8e8e8;}
 .about_nav a{margin: 0 20px; color: #474747; padding: 5px 0;}
 .about_nav a.this{color: #000; border-bottom:2px solid #7ac143;}

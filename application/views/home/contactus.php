@@ -67,11 +67,13 @@ var NTKF_PARAM = {
 	
 	<div class="contact_content_2" id="bd">
 		<img src="/assets/images/about_icon_3.jpg" alt="">
-		<ul>
-			<li>客服电话：4006801201</li>
-			<li>官方微博：http://weibo.com/peishi</li>
-			<li>官方微信：persefamily</li>
-			<li>公司地址：海淀区上地十街1号院1号楼辉煌国际大厦1609室 </li>
+		<ul>	
+			<li>官方微博：http://weibo.com/persejuice</li>
+			<li>官方合作：market@newperse.cn</li>
+			<li>客服电话：4006-801-201</li>
+			<li>官方微信：persejuice</li>
+			<li>红包微信：persefamily</li>
+			<li>公司地址：北京市海淀区上地十街1号院1号楼1609室 </li>
 		</ul>
 	</div>
 	<div class="contact_content_3">

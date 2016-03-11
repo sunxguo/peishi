@@ -65,41 +65,34 @@
 				
 	<div class="main_about">
 		<div class="main_about_tree">
-			<div class="about_tree_year box24"><span>2015</span></div>
+			<div class="about_tree_year box24"><span>2013</span></div>
 			<div class="about_tree_box box22 right bg_b">
 				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2015年06月</div>
+				<div class="about_tree_title">2013年</div>
 				<div class="about_tree_content">
-					复合果汁上市
+					第一台冷压榨汁机到京，正式联合中国农业大学食品食品科学与营养工程院研发超高压果汁
 					<div class="about_tree_icon"></div>
-					<img src="/assets/images/about_tree_box10.jpg" alt="">
+					<img src="/assets/images/aboutus_2013.jpg" width="150px" hreight="97px" alt="">
 				</div>
 			</div>
-			<div class="about_tree_box box21 left bg_b">
-				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2015年04月</div>
-				<div class="about_tree_content">
-					沛时线下销售门店到达50家
-					<div class="about_tree_icon"></div>
-					<img src="/assets/images/about_tree_box9.jpg" alt="" width="150px">
-				</div>
-			</div>
+			
 			<div class="about_tree_year box19"><span>2014</span></div>
 			<div class="about_tree_box box20 right bg_o">
 				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2014年8月</div>
+				<div class="about_tree_title">2014年2月</div>
 				<div class="about_tree_content">
-					沛时排毒纤体系列果汁上市
+					北京沛时之初饮品有限公司在北京市海淀区注册，实验基地建成
 					<div class="about_tree_icon"></div>
+					<img src="/assets/images/aboutus_201402.jpg" alt="">
 				</div>
 			</div>
 			<div class="about_tree_box box18 left bg_b">
 				<div class="about_tree_point"></div>
 				<div class="about_tree_title">2014年5月</div>
 				<div class="about_tree_content">
-					沛时生果汁首发
+					沛时生果汁纯果系列首发
 					<div class="about_tree_icon"></div>
-					<img src="/assets/images/about_tree_box18.jpg" alt="" width="150px;">
+					<img src="/assets/images/aboutus_201405.jpg" alt="" >
 				</div>
 			</div>
 
@@ -107,13 +100,14 @@
 		
 			<div class="about_tree_box box1 right bg_b">
 				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2014年4月</div>
+				<div class="about_tree_title">2014年8月</div>
 				<div class="about_tree_content">
-					沛时全线产品取得QS生产产品许可
+					沛时产品生机排毒纤体系列果汁上市
 					<div class="about_tree_icon"></div>
+					<img src="/assets/images/aboutus_201408.PNG" alt="" >
 				</div>
 			</div>
-			<div class="about_tree_box box2 left bg_o">
+			<!-- <div class="about_tree_box box2 left bg_o">
 				<div class="about_tree_point"></div>
 				<div class="about_tree_title">2014年8月2日</div>
 				<div class="about_tree_content">
@@ -132,28 +126,92 @@
 				</div>
 				<img src="/assets/images/about_tree_box6.jpg" alt="">
 			</div>
+		 -->
 		
-		
-			<div class="about_tree_year"><span>2013</span></div>
+			<div class="about_tree_year box25"><span>2015</span></div>
 			<div class="about_tree_box box11 left bg_b">
 				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2013年12月25日</div>
+				<div class="about_tree_title">2015年4月</div>
 				<div class="about_tree_content">
-					中国农业大学食品科学与营养工程学院
-	            	设立超高压处理在果汁上的应用研究课题
+					沛时线下销售门店超过50家
 					<div class="about_tree_icon"></div>
+					<img src="/assets/images/aboutus_201504.JPG" alt="" >
 				</div>
 			</div>
 
 			<div class="about_tree_box box14 right bg_o">
 				<div class="about_tree_point"></div>
-				<div class="about_tree_title">2013年1月</div>
+				<div class="about_tree_title">2015年5月7日</div>
 				<div class="about_tree_content">
-					第一台冷压榨取到京
+					沛时生果汁在中关村3W咖啡邂逅国家总理李克强
 					<div class="about_tree_icon"></div>
 				</div>
-				<img src="/assets/images/delivery_page_14.png" alt="">
+				<img src="/assets/images/aboutus_20150507.PNG" alt="">
 			</div>
+
+			<div class="about_tree_box box2 left bg_b">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2015年6月</div>
+				<div class="about_tree_content">
+					沛时生果汁产品更新升级，复合果汁上市
+					<div class="about_tree_icon"></div>
+				</div>
+				<img src="/assets/images/aboutus_201506.PNG" alt="">
+			</div>
+
+			<div class="about_tree_box box6 right bg_o">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2015年9月</div>
+				<div class="about_tree_content">
+					沛时全面开启私人定制模式<br/>
+					联合五洲电影发行公司推广《滚蛋吧，肿瘤君》<br/>
+                  	联合接我科技跨界合作 <br/>                   
+                  	联合北京大学光华管理学院在故宫合作《当燕园遇上紫禁城》
+					<div class="about_tree_icon"></div>
+				</div>
+				<img src="/assets/images/aboutus_201509.JPG" alt="">
+			</div>	
+
+			<div class="about_tree_box box26 left bg_b">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2015年12月</div>
+				<div class="about_tree_content">
+					入驻民生商城
+					<div class="about_tree_icon"></div>
+				</div>
+				<img src="/assets/images/aboutus_201512.jpg" alt="">
+			</div>
+
+			<div class="about_tree_year box27"><span>2016</span></div>
+			 <div class="about_tree_box box28 left bg_b">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2016年1月</div>
+				<div class="about_tree_content">
+					成功入驻京东、天猫、1号店
+					<div class="about_tree_icon"></div>
+					
+				</div>
+			</div>
+
+			<div class="about_tree_box box29 right bg_o">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2016年1月9日</div>
+				<div class="about_tree_content">
+					沛时独家赞助《田光浩·钢琴独奏音乐会》在蓬蒿剧场举行
+					<div class="about_tree_icon"></div>
+				</div>
+				<img src="/assets/images/aboutus_20150109.JPG" alt="">
+			</div>
+
+			<div class="about_tree_box box30 left bg_b">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2016年1月9日</div>
+				<div class="about_tree_content">
+					沛时联合制作的《利未记》获金鸡百花学院奖优秀短片
+					<div class="about_tree_icon"></div>
+				</div>
+				<img src="/assets/images/aboutus_20160109.JPG" alt="">
+			</div> 
 		</div>
 	</div>
 	<p class="pb50" style="color:#999; width:880px; margin:0 auto;">沛时
