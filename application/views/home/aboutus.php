@@ -92,7 +92,7 @@
 				<div class="about_tree_content">
 					沛时生果汁纯果系列首发
 					<div class="about_tree_icon"></div>
-					<img src="/assets/images/aboutus_201405.jpg" alt="" >
+					<img src="/assets/images/aboutus_201405.JPG" alt="" >
 				</div>
 			</div>
 
