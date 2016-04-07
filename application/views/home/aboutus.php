@@ -4,7 +4,7 @@
 	<meta content="telephone=no" name="format-detection">
 	<meta name="keywords" content="沛时,轻断食果汁,纤体,冷榨蔬果汁,轻断食蔬果汁,沛时轻断食蔬果汁,果汁,果蔬汁,轻断食果蔬汁,冷榨果汁">
 	<meta name="description" content="轻断食果蔬汁沛时，3天变美计划。营养学家设计的冷压鲜榨果蔬汁餐单，每天6瓶连续3天，排出体内毒素，激发细胞修复力，减去多余脂肪、美颜、身体变轻盈，充满青春活力！新鲜水果与蔬菜冷压鲜榨，全程冷链免费送达。">
-	<title>轻断食果蔬汁沛时，3天变美计划</title>
+	<title>沛时，生于科技回归自然</title>
 	<script src="/assets/index_files/v.htm" charset="utf-8"></script><script src="/assets/js/ntkfstat.js" charset="utf-8" async="" type="text/javascript"></script><script type="text/javascript" src="/assets/js/base.js"></script>
 	<script type="text/javascript" src="/assets/js/common.js"></script>
 	<script type="text/javascript" src="/assets/js/global.js"></script>
@@ -66,7 +66,7 @@
 	<div class="main_about">
 		<div class="main_about_tree">
 			<div class="about_tree_year box24"><span>2013</span></div>
-			<div class="about_tree_box box22 right bg_b">
+			<div class="about_tree_box box22 right bg_o">
 				<div class="about_tree_point"></div>
 				<div class="about_tree_title">2013年</div>
 				<div class="about_tree_content">
@@ -98,7 +98,7 @@
 
 
 		
-			<div class="about_tree_box box1 right bg_b">
+			<div class="about_tree_box box1 right bg_o">
 				<div class="about_tree_point"></div>
 				<div class="about_tree_title">2014年8月</div>
 				<div class="about_tree_content">
@@ -211,7 +211,17 @@
 					<div class="about_tree_icon"></div>
 				</div>
 				<img src="/assets/images/aboutus_20160109.JPG" alt="">
-			</div> 
+			</div>  
+
+			<div class="about_tree_box box31 right bg_o">
+				<div class="about_tree_point"></div>
+				<div class="about_tree_title">2016年3月7日</div>
+				<div class="about_tree_content">
+					女神节当天沛时生果汁LAB实验室系列正式亮相
+					<div class="about_tree_icon"></div>
+				</div>
+				<!-- <img src="/assets/images/aboutus_20150109.JPG" alt=""> -->
+			</div>
 		</div>
 	</div>
 	<p class="pb50" style="color:#999; width:880px; margin:0 auto;">沛时
@@ -239,7 +249,10 @@
 									</ul>	
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
-									沛于己<br>时在行!
+									<!-- 沛于己<br>时在行! -->
+									<?php if(isset($cidibuyou[0])):?>
+										<?php echo $cidibuyou[0]->content;?>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>
