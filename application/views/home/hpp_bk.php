@@ -281,7 +281,9 @@ var NTKF_PARAM = {
 									</ul>	
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
-									沛于己<br>时在行!
+									<?php if(isset($cidibuyou[0])):?>
+										<?php echo $cidibuyou[0]->content;?>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>

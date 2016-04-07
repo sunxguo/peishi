@@ -234,19 +234,25 @@
 							</div>
 							<div class="footer_info">
 								<div class="eq_code">
-									<p>微信公众号：persejuice</p>
+									<!-- <p>微信公众号：persejuice</p>
 									<p>客服微信号：persefamily</p>
 									<p>咨询电话：	4006 801 201</p>
-									<p>沛时官网：	www.perse.cn</p>
+									<p>沛时官网：	www.perse.cn</p> -->
+									<?php if(isset($cidibuzuo[0])):?>
+										<?php echo $cidibuzuo[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="about_we">
-									<p class="about_h1"style="margin-top:10px;">联系“沛时”获得在线支持</p>
+									<!-- <p class="about_h1"style="margin-top:10px;">联系“沛时”获得在线支持</p>
 									<p class="f12">7x13小时专心服务,请通过任意方式联系我们</p>
 									<ul class="iconfont" style="margin-top:20px;">
 										<li><img src="/assets/images/weixin.png"></li>
 										<li><img src="/assets/images/weibo.png"></li>
 										<li><img src="/assets/images/taobao.png"></li>
-									</ul>	
+									</ul>	 -->
+									<?php if(isset($cidibuzhong[0])):?>
+										<?php echo $cidibuzhong[0]->content;?>
+									<?php endif;?>
 								</div>
 								<div class="better_me" style="margin-top:-26px;">
 									<!-- 沛于己<br>时在行! -->
