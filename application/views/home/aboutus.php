@@ -220,7 +220,7 @@
 					女神节当天沛时生果汁LAB实验室系列正式亮相
 					<div class="about_tree_icon"></div>
 				</div>
-				<!-- <img src="/assets/images/aboutus_20150109.JPG" alt=""> -->
+				<img src="/assets/images/aboutus_789456132.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -270,6 +270,13 @@
 								<li><a href="/home/brand">品牌活动</a></li>
 								<li><a href="http://www.heyjuice.cn/Delivery/index"></a></li>
 							</ul>
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
+			               	    <p>
+			               	    	<?php if(isset($dibu[0])):?>
+										<?php echo $dibu[0]->content;?>
+									<?php endif;?>
+								</p>
+	                       	</div>
 						</div>
 					</div>
 		<!-- 弹出层 -->

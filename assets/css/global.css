@@ -740,9 +740,9 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 			.about_tree_box.box30 { margin-left: -420px; bottom: 140px;}
 				.about_tree_box.box30 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
 				.about_tree_box.box30 img { position: absolute; left: -140px; top: 0; height:150px; width:110px;}
-			.about_tree_box.box31 { width: 330px; margin-left: 42.5px; bottom: -60px;}
+			.about_tree_box.box31 { width: 330px; margin-left: 42.5px; bottom: -50px;}
 				.about_tree_box.box31 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
-				.about_tree_box.box31 img { position: absolute; right: -130px; top: 0; height:150px; width:110px;}			
+				.about_tree_box.box31 img { position: absolute; right: -160px; top: 0; height:110px; width:150px;}			
 .about_nav{text-align: center; line-height: 50px; background: #e8e8e8;}
 .about_nav a{margin: 0 20px; color: #474747; padding: 5px 0;}
 .about_nav a.this{color: #000; border-bottom:2px solid #7ac143;}
