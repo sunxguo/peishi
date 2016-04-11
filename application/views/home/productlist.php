@@ -62,7 +62,7 @@
 		<div class="product_content_3">
 		<?php if(isset($logo[0])):?>
 			
-			<img src="<?php echo $logo[0]->thumbnail;?>" alt="" width="100%">
+			<img src="<?php echo $logo[0]->thumbnail;?>" alt="" width="100%" height="15%;">
 		<?php endif;?>
 			<!-- <img src="/assets/images/product_icon_07.jpg" alt="" width="100%"> -->
 			<h2></h2>
