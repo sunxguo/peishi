@@ -207,7 +207,7 @@ class GetData{
 				$columns = array(1,2,3,19,20,21,22,24,25,23,28);
 				break;
 			case 'products'://产品
-				$columns = array(4,27,29);
+				$columns = array(4,27,29,30);
 				break;
 			case 'forum'://论坛
 				$columns = array(5);
