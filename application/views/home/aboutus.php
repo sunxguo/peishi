@@ -189,7 +189,7 @@
 				<div class="about_tree_content">
 					成功入驻京东、天猫、1号店
 					<div class="about_tree_icon"></div>
-					
+					<img src="/assets/images/sanhuan.jpg" alt="">
 				</div>
 			</div>
 

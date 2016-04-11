@@ -733,7 +733,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 			.main_about_tree .box27 { bottom: 640px;}
 			.about_tree_box.box28 { margin-left: -275px; bottom: 500px;}
 				.about_tree_box.box28 .about_tree_content { height: 60px; line-height:60px; padding: 0 15px;}
-				
+				.about_tree_box.box28 img { position: absolute; left: -140px; top: -40px; height:150px; width:110px;}
 			.about_tree_box.box29 { width: 330px; margin-left: 42.5px; bottom: 300px;}
 				.about_tree_box.box29 .about_tree_content { height: 60px; line-height: 60px; padding: 0 15px;}
 				.about_tree_box.box29 img { position: absolute; right: -130px; top: 0; height:150px; width:110px;}

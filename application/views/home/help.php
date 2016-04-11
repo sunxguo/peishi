@@ -64,7 +64,7 @@ var NTKF_PARAM = {
 	<h2>帮助中心</h2>
 	<div class="qa_icon_box clearfix">
 		<div class="qa_icon QaIcon">
-			<div class="qa_icon_1"><img src="/assets/images/qa_icon_1.png" alt=""></div>
+			<div class="qa_icon_1"><img src="/assets/images/peisong.jpg" alt="" width="308px" height="214px"></div>
 			<div style="opacity: 0;" class="qa_mask_1 QaMask">
 				<h3>关于配送</h3>
 				<p class="mt10">冷压鲜榨，全程冷链</p>
@@ -74,7 +74,7 @@ var NTKF_PARAM = {
 			</div>
 		</div>
 		<div class="qa_icon QaIcon">
-			<div class="qa_icon_2"><img src="/assets/images/qa_icon_2.png" alt=""></div>
+			<div class="qa_icon_2"><img src="/assets/images/goumai.jpg" alt="" width="308px" height="214px"></div>
 			<div style="opacity: 0;" class="qa_mask_2 QaMask">
 				<h3>关于购买</h3>
 				<a href="" class="mt10">点击直接下单</a>
@@ -84,7 +84,7 @@ var NTKF_PARAM = {
 			</div>
 		</div>
 		<div class="qa_icon QaIcon">
-			<div class="qa_icon_3"><img src="/assets/images/qa_icon_3.png" alt=""></div>
+			<div class="qa_icon_3"><img src="/assets/images/lianxi.jpg" alt="" width="308px" height="214px"></div>
 			<div style="opacity: 0;" class="qa_mask_3 QaMask">
 				<h3>关于客服</h3>
 				<p class="mt40 f18">010-60645096</p>
