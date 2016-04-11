@@ -246,7 +246,14 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['logo']=$this->getdata->getEssays($parameters);
+
 		//'商品列表'
+		$parameters=array(
+			'result'=>'data',
+			'column'=>29,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservice1']=$this->getdata->getEssays($parameters);
 		$parameters=array(
 			'result'=>'data',
 			'column'=>4,

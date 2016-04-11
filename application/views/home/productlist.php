@@ -80,33 +80,21 @@
 			<?php endforeach;?>
 		</div>
 		<div class="product_content_1">
-			<h2>"沛时"产品准则</h2>
-			<p>我们承诺给到你新鲜的果蔬汁</p>
-			<ul>
-				<li>
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" class="lazy" data-original="images/product_icon_01.png" alt="">
-					<div>
-						<h3>接单鲜榨</h3>
-						"沛时"是行业中的“少数派”，我们从来不囤积水果和蔬菜，而是每天采购新鲜的高品质果蔬，在收到订单后，立刻进行榨汁，这是每一瓶沛时都鲜美可口的秘密之一。
-					</div>
-				</li>
-				<li>
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" class="lazy" data-original="images/product_icon_02.png" alt="">
-					<div style="border:none">
-						<h3>HPP超高压灭菌</h3>
-						传统果蔬汁采用高温灭菌技术，果蔬汁被“煮熟”，大量营养流失。沛时创新采用先进的HPP超高压灭菌技术，全程低温生产，保留果蔬汁的生鲜口感和丰富营养，给你原汁原味的享受。
-					</div>
-				</li>
-				<li>
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" class="lazy" data-original="images/product_icon_03.png" alt="">
-					
-					<div>
-						<h3>保留果肉</h3>
-						我们在果蔬汁中加入新鲜果肉，为你补充膳食纤维，促进身体代谢重金属和多余胆固醇，帮助肠胃“大扫除”。我们拒绝添加稳定剂，因此果肉果汁会分层，这是自然现象，摇一摇喝起来啦！
-					</div>
-				</li>
-			</ul>
-		</div>
+		<h2>"沛时"产品准则</h2>
+		<p>我们承诺给到你新鲜的果蔬汁</p>
+		<ul>
+			<?php foreach($productservice1 as $ps):?>
+			<li>
+			
+				<img style="display: inline;" src="<?php echo $ps->thumbnail;?>" class="lazy" data-original="/Public/Home/images/product_icon_01.png" alt="">
+				<div>
+					<h3><?php echo $ps->title;?></h3>
+					<?php echo $ps->content;?>
+				</div>
+			</li>
+			<?php endforeach;?>
+		</ul>
+	</div>
 	</div>
 			</div>
 			<div class="footer">

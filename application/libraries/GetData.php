@@ -218,8 +218,11 @@ class GetData{
 			case 'service'://品牌理念
 				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18);
 				break;
-			case 'productslogo'://品牌理念
+			case 'productslogo'://产品logo
 				$columns = array(27);
+				break;
+			case 'productsnorm'://产品准则
+				$columns = array(29);
 				break;
 			default:
 				
