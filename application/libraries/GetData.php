@@ -204,7 +204,7 @@ class GetData{
 	public function getColumns($type,$isOnlyId){
 		switch ($type) {
 			case 'home'://首页
-				$columns = array(1,2,3,19,20,21,22,24,25,23);
+				$columns = array(1,2,3,19,20,21,22,24,25,23,28);
 				break;
 			case 'products'://产品
 				$columns = array(4);
@@ -218,7 +218,9 @@ class GetData{
 			case 'service'://品牌理念
 				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18);
 				break;
-			
+			case 'productslogo'://品牌理念
+				$columns = array(27);
+				break;
 			default:
 				
 				break;

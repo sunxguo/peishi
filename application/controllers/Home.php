@@ -65,6 +65,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -110,6 +117,7 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuzuo']=$this->getdata->getEssays($parameters);
+		
 		//首页-次底部-中
 		$parameters=array(
 			'result'=>'data',
@@ -124,6 +132,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -162,6 +177,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -203,6 +225,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -210,6 +239,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['dibu']=$this->getdata->getEssays($parameters);
+		//产品头部logo
+		$parameters=array(
+			'result'=>'data',
+			'column'=>27,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['logo']=$this->getdata->getEssays($parameters);
 		//'商品列表'
 		$parameters=array(
 			'result'=>'data',
@@ -242,6 +278,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -316,6 +359,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -397,6 +447,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -429,6 +486,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -475,6 +539,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -514,6 +585,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -553,6 +631,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		$parameters=array(
 			'result'=>'data',
 			'column'=>23,
@@ -590,6 +675,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['dibu']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		//首页-底部
 		$parameters=array(
 			'result'=>'data',
@@ -622,6 +714,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		$parameters=array(
 			'result'=>'data',
 			'column'=>23,
@@ -653,6 +752,13 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['cidibuyou']=$this->getdata->getEssays($parameters);
+		//首页-次底部-上
+		$parameters=array(
+			'result'=>'data',
+			'column'=>28,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['cidibushang']=$this->getdata->getEssays($parameters);
 		$parameters=array(
 			'result'=>'data',
 			'column'=>23,

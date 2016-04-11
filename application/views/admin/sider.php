@@ -15,6 +15,7 @@
 			<ul class="nav <?php echo array_key_exists('content',$sider)?'':'km-hide';?>">
 				<li><a href="/admin/home" class="<?php echo array_key_exists('home',$sider)?'active':'';?>">首页</a></li>
 				<li><a href="/admin/products" class="<?php echo array_key_exists('products',$sider)?'active':'';?>">产品</a></li>
+				<li><a href="/admin/productslogo" class="<?php echo array_key_exists('productslogo',$sider)?'active':'';?>">产品头部logo</a></li>
 				<li><a href="/admin/forum" class="<?php echo array_key_exists('forum',$sider)?'active':'';?>">论坛</a></li>
 				<li><a href="/admin/activity" class="<?php echo array_key_exists('activity',$sider)?'active':'';?>">品牌活动</a></li>
 				<li><a href="/admin/service" class="<?php echo array_key_exists('service',$sider)?'active':'';?>">品牌理念</a></li>
@@ -56,4 +57,4 @@
 			</ul>
 		</li>
 	</ul>
-</div>
+</div> 
