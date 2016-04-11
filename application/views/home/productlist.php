@@ -62,7 +62,7 @@
 		<div class="product_content_3">
 		<?php if(isset($logo[0])):?>
 			
-			<img src="<?php echo $logo[0]->thumbnail;?>" alt="" width="100%" height="15%;">
+			<img src="<?php echo $logo[0]->thumbnail;?>" alt="" width="100%" height="450px;">
 		<?php endif;?>
 			<!-- <img src="/assets/images/product_icon_07.jpg" alt="" width="100%"> -->
 			<h2></h2>
@@ -85,8 +85,9 @@
 		<ul>
 			<?php foreach($productservice1 as $ps):?>
 			<li>
-			
-				<img style="display: inline;" src="<?php echo $ps->thumbnail;?>" class="lazy" data-original="/Public/Home/images/product_icon_01.png" alt="">
+			    <?php if(isset($ps->thumbnail)):?>
+				<img style="display: inline;" src="<?php echo $ps->thumbnail;?>" class="lazy" data-original="/Public/Home/images/product_icon_01.png" alt="" width="165px" height="163px">
+			<?php endif;?>
 				<div>
 					<h3><?php echo $ps->title;?></h3>
 					<?php echo $ps->content;?>
