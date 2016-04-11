@@ -107,12 +107,12 @@ class Admin extends CI_Controller {
 	public function forum(){
 		$this->adminCommon('forum','论坛','forumlist');
 	}
-	public function productslogo(){
-		$this->adminCommon('productslogo','产品头部logo');
-	}
-	public function productsnorm(){
-		$this->adminCommon('productsnorm','产品准则');
-	}
+	// public function productslogo(){
+	// 	$this->adminCommon('productslogo','产品头部logo');
+	// }
+	// public function productsnorm(){
+	// 	$this->adminCommon('productsnorm','产品准则');
+	// }
 	// public function contactus(){
 	// 	$this->adminCommon('contactus','联系我们');
 	// }

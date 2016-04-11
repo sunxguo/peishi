@@ -207,7 +207,7 @@ class GetData{
 				$columns = array(1,2,3,19,20,21,22,24,25,23,28);
 				break;
 			case 'products'://产品
-				$columns = array(4);
+				$columns = array(4,27,29);
 				break;
 			case 'forum'://论坛
 				$columns = array(5);
@@ -218,12 +218,12 @@ class GetData{
 			case 'service'://品牌理念
 				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18);
 				break;
-			case 'productslogo'://产品logo
-				$columns = array(27);
-				break;
-			case 'productsnorm'://产品准则
-				$columns = array(29);
-				break;
+			// case 'productslogo'://产品logo
+			// 	$columns = array(27);
+			// 	break;
+			// case 'productsnorm'://产品准则
+			// 	$columns = array(29);
+			// 	break;
 			default:
 				
 				break;
