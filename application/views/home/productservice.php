@@ -66,8 +66,8 @@ var NTKF_PARAM = {
 			
 <div class="technics_main">
 	<div class="product_content_1">
-		<h2>"沛时"产品准则</h2>
-		<p>我们承诺给到你新鲜的果蔬汁</p>
+		<h2><?php echo $productservicebig[0]->title;?></h2>
+		<p><?php echo $productservicesmall[0]->title;?></p>
 		<ul>
 			<?php foreach($productservice1 as $ps):?>
 			<li>

@@ -78,6 +78,7 @@ class Common extends CI_Controller {
 			break;
 		}
 		$result=$this->dbHandler->updateData(array('table'=>$table,'where'=>$where,'data'=>$info));
+		
 		if($result==1) echo json_encode(array("result"=>"success","message"=>"信息修改成功"));
 		else echo json_encode(array("result"=>"failed","message"=>"信息修改失败"));
 	}

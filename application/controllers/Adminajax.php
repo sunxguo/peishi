@@ -14,6 +14,7 @@ class Adminajax extends CI_Controller {
 		}
 	}
 	public function login(){
+		//var_dump(123132);
 		if(property_exists($this->_data, "username") && property_exists($this->_data, "password")){
 			$username=$this->_data->username;
 			$password=$this->_data->password;

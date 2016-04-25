@@ -216,7 +216,7 @@ class GetData{
 				$columns = array(6,26);
 				break;
 			case 'service'://品牌理念
-				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18);
+				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18,32,31);
 				break;
 			// case 'productslogo'://产品logo
 			// 	$columns = array(27);

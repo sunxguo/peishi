@@ -439,6 +439,20 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['productservice6']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-大标题
+		$parameters=array(
+			'result'=>'data',
+			'column'=>31,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservicebig']=$this->getdata->getEssays($parameters);
+		//品牌理念-产品工艺-小标题
+		$parameters=array(
+			'result'=>'data',
+			'column'=>32,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['productservicesmall']=$this->getdata->getEssays($parameters);
 		//首页-次底部-左
 		$parameters=array(
 			'result'=>'data',
