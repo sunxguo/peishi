@@ -615,6 +615,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .last_page{float: left;}
 .next_page{float: right;}
 .qa_ment li{ height: 60px; line-height: 60px; color: #8d8d8d; border-bottom: 1px solid #eee; padding-left: 10px;}
+/*.qa_ment li.this{color: #fff; transition:color .5s;} #7ac143*/
 .qa_ment li.this{color: #fff; transition:color .5s;}
 .qa_list{background:url(../images/qa_bg.jpg) right #fff no-repeat; margin: 0 10px; height: 540px; box-shadow: 0 0 3px #ddd; position: relative;}
 .qa_list:before {content: '';border-top: 36px solid #f7f7f7;border-left: 36px solid transparent; border-bottom: 36px solid transparent;position: absolute;right: -3px;top: -3px;}

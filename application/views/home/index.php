@@ -147,15 +147,17 @@
 						</div>
 						<div class="re_index_gks_b">
 							<ul class="clearfix mt10">
+							<?php foreach($qinduanshi as $qds):?>
 								<li>
 									<div class="comments_list_gks">
-										<a class="comments_list_img" href=""><img alt="玛格丽特公主 " src="/assets/images/re_index_05.jpg"></a>
+										<a class="comments_list_img" href=""><img alt="玛格丽特公主 " src="<?php echo $qds->thumbnail?>"></a>
 										<a class="comments_list_avatar" href=""><img src="/assets/images/55506e8dcb566.jpg"></a>
 									</div>
-									<div class="comments_list_text">@"沛时"</div>
-									<div class="comments_list_name">金彤Cyn </div>
+									<div class="comments_list_text"><?php echo $qds->content?></div>
+									<div class="comments_list_name"><?php echo $qds->summary?></div>
 								</li>
-								<li class="ml10 mr10">
+							<?php endforeach;?>	
+								<!-- <li class="ml10 mr10">
 									<div class="comments_list_gks">
 										<a class="comments_list_img" href=""><img alt="玛格丽特公主 " src="/assets/images/re_index_06.jpg"></a>
 										<a class="comments_list_avatar" href=""><img src="/assets/images/546b16a0aae5b.jpg"></a>
@@ -170,7 +172,7 @@
 									</div>
 									<div class="comments_list_text">#Kelly萌·life#Better me with "沛时"#空瓶记#完美收官 @"沛时"。</div>
 									<div class="comments_list_name">Kelly萌 </div>
-								</li>
+								</li> -->
 
 							</ul>
 						</div>

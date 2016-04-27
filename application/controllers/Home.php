@@ -37,6 +37,27 @@ class Home extends CI_Controller {
 			'orderBy'=>array('time'=>'DESC')
 		);
 		$data['meiriliuping']=$this->getdata->getEssays($parameters);
+		//你的轻断食体验
+		$parameters=array(
+			'result'=>'data',
+			'column'=>33,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['qinduanshi']=$this->getdata->getEssays($parameters);
+		//首页-每日六瓶（3天变美计划下面）你的轻断食体验
+		// $parameters=array(
+		// 	'result'=>'data',
+		// 	'column'=>20,
+		// 	'orderBy'=>array('time'=>'DESC')
+		// );
+		// $data['meiriliuping']=$this->getdata->getEssays($parameters);
+		// //首页-每日六瓶（3天变美计划下面）你的轻断食体验
+		// $parameters=array(
+		// 	'result'=>'data',
+		// 	'column'=>20,
+		// 	'orderBy'=>array('time'=>'DESC')
+		// );
+		// $data['meiriliuping']=$this->getdata->getEssays($parameters);
 		//首页-部分评论展示右上部banner（每日六瓶下面）
 		$parameters=array(
 			'result'=>'data',
@@ -793,5 +814,32 @@ class Home extends CI_Controller {
 		);
 		$data['dibu']=$this->getdata->getEssays($parameters);
 		$this->load->view('home/inside',$data);
+	}
+    //常见问题
+	public function problem(){
+		$data=array();
+		//问题1
+		$parameters=array(
+			'result'=>'data',
+			'column'=>34,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['peoblem1']=$this->getdata->getEssays($parameters);
+		//问题2
+		$parameters=array(
+			'result'=>'data',
+			'column'=>35,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['peoblem2']=$this->getdata->getEssays($parameters);
+		//问题3
+		$parameters=array(
+			'result'=>'data',
+			'column'=>36,
+			'orderBy'=>array('time'=>'DESC')
+		);
+		$data['peoblem3']=$this->getdata->getEssays($parameters);
+		
+		$this->load->view('home/help',$data);
 	}
 }

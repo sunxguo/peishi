@@ -168,6 +168,7 @@ class GetData{
 		}
 		return $essays;
 	}
+
 	public function getUsers($parameters){
 		$condition=array(
 			'table'=>'user',
@@ -204,7 +205,7 @@ class GetData{
 	public function getColumns($type,$isOnlyId){
 		switch ($type) {
 			case 'home'://首页
-				$columns = array(1,2,3,19,20,21,22,24,25,23,28);
+				$columns = array(1,2,3,19,20,21,22,24,25,23,28,33);
 				break;
 			case 'products'://产品
 				$columns = array(4,27,29,30);
@@ -218,6 +219,9 @@ class GetData{
 			case 'service'://品牌理念
 				$columns = array(7,8,9,10,11,12,13,14,15,16,17,18,32,31);
 				break;
+			case 'problem'://问题
+				$columns = array(34,36,35);
+				break;	
 			// case 'productslogo'://产品logo
 			// 	$columns = array(27);
 			// 	break;

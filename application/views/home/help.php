@@ -9,6 +9,7 @@
 <script type="text/javascript" src="/assets/js/common.js"></script>
 <script type="text/javascript" src="/assets/js/global.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/assets/js/qa.js"></script>
 <script type="text/javascript">
 var NTKF_PARAM = {
 	siteid:"kf_9700",                   
@@ -29,10 +30,10 @@ var NTKF_PARAM = {
 	<div class="wrap Wrap">
 		<div class="navtop">
 			<div class="navtop_box">
-								<div class="login_bar">
+				<div class="login_bar">
 				
 				</div>
-								<div class="navtop_info">沛于己，时在行!</div>
+			    <div class="navtop_info">沛于己，时在行!</div>
 			</div>
 		</div>
 		<div class="header ">
@@ -50,15 +51,13 @@ var NTKF_PARAM = {
 							<li><a class="" href="/home/service">品牌理念</a></li>
 					</ul>
 					<div class="shoping_car">
-						<a class="ShoppingCarLink" href="">
-																				</a>
+						<a class="ShoppingCarLink" href=""></a>
 					</div>
 				</div>
 				
 			</div>
 		</div>
-								<div class="main">
-			
+<div class="main">	
 <script type="text/javascript" src="/assets/images/qa.js"></script>
 <div class="qa_main">
 	<h2>帮助中心</h2>
@@ -97,12 +96,12 @@ var NTKF_PARAM = {
 	<div class="qa_list clearfix">
 		<div class="qa_ment QaMent">
 			<div style="top: 0px;" class="QaMentBg"></div>
-			<ul><li class="this">＂沛时＂轻断食开始之前相关疑问</li><li>＂沛时＂轻断食进行时相关疑问</li><li>＂沛时＂轻断食结束后相关疑问</li><li>其它问题</li></ul>
+			<ul></ul>
 		</div>
 		<div class="qa_list_link QaList">
-			<ul><li>1、这是暂时流行的健康风潮吗？</li><li>2、我应该何时饮用？多久一次？</li><li>3、我是否应该选一个更长时间的轻断食计划？</li><li>4、是否有不同“段位”的轻断食方案？</li><li>5、我身体偏“寒”，我能喝吗？</li><li>6、我挺担心，我会很疲惫吗？</li><li>7、轻断食会不会降低我的新陈代谢？</li><li>8、怀孕/哺乳/生病/生理期，能喝吗？</li><li>9、我对有些食物过敏，还能喝吗？</li><li>10、有年龄限制么？</li><li>11、哪些人不适合饮用？</li></ul>
+			<ul><!-- <li>1、为什么高温灭菌会破坏营养，超高压灭菌就会保护营养？</li><li>2、超高压处理有高压锅的压强高吗</li><li>3、为什么开盖后，(per se)生果汁会变色？</li><li>4、为什么经过非热超高压灭菌的(perse)生果汁de纯果还需要冷藏？</li><li>5、(perse)生果汁de纯果比生吃果蔬要好吗？</li> --><!-- <li>6、我挺担心，我会很疲惫吗？</li><li>7、轻断食会不会降低我的新陈代谢？</li><li>8、怀孕/哺乳/生病/生理期，能喝吗？</li><li>9、我对有些食物过敏，还能喝吗？</li><li>10、有年龄限制么？</li><li>11、哪些人不适合饮用？</li> --></ul>
 		</div>
-		<div class="qa_data QaData">
+		<div class="qa_data QaData this">
 			<span></span>
 		</div>
 	</div>
@@ -152,7 +151,7 @@ window.onload=function(){
 	})
 }
 </script>
-		</div>
+</div>
 		<div class="footer">
 							<div class="footer_logo" >
 								<?php if(isset($cidibushang[0])):?>					
@@ -174,7 +173,7 @@ window.onload=function(){
 									<p class="f12">7x13小时专心服务,请通过任意方式联系我们</p>
 									<ul class="iconfont" style="margin-top:20px;">
 										<li><img src="/assets/images/weixin.png"></li>
-										<li><img src="/assets/images/weibo.png"></li>
+										<li><img src="/assets/simages/weibo.png"></li>
 										<li><img src="/assets/images/taobao.png"></li>
 									</ul>	 -->
 									<?php if(isset($cidibuzhong[0])):?>

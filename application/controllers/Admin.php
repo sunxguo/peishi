@@ -107,6 +107,9 @@ class Admin extends CI_Controller {
 	public function forum(){
 		$this->adminCommon('forum','论坛','forumlist');
 	}
+	public function problem(){
+		$this->adminCommon('problem','问题');
+	}
 	// public function productslogo(){
 	// 	$this->adminCommon('productslogo','产品头部logo');
 	// }
