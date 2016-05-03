@@ -629,7 +629,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .qa_list_link li{line-height: 30px; color: #838a8e;}
 .qa_list_link ul{padding: 67px 20px 20px 20px;color: #8d8d8d;}
 .qa_list_link li.this{color: #2ad2c9;}
-.qa_data{float: left; width: 310px;padding:0px 25px 20px 25px;color: #8d9397; height: 370px; overflow-y: auto; line-height: 26px; margin-top: 77px; background: url(../images/qa_bg1.jpg) no-repeat center;}
+.qa_data{float: left; width: 310px;padding:0px 25px 20px 25px;color: #8d9397; height: 370px; overflow-y: auto; line-height: 26px; margin-top: 77px; background: url(http://static.heyjuice.cn/Public/Home/images/qa_bg1.jpg) no-repeat center;}
 .qa_data.this{background: none;}
 .qa_data p{width: 28px; height: 28px; text-align: center; line-height: 28px; background: #2ad2c9; color: #fff; margin-bottom: 10px;}
 .qa_mask_1,.qa_mask_2,.qa_mask_3{width: 307px; height: 214px; text-align: center; line-height: 24px; position: absolute; left: 6px; top: 6px; color: #fff; opacity: 0;} 
