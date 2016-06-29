@@ -185,7 +185,7 @@
 			<h2>品牌活动</h2>
 			<ul class="clearfix">
 				<?php foreach($pinpaihuodong as $pphd):?>
-				<li>
+				<li style="width:100%;">
 					<a href="<?php echo $qdgs->islink==0?'/home/essay?id='.$qdgs->id:$qdgs->link;?>">
 						<img src="<?php echo $pphd->thumbnail;?>" width="100%;" >
 						<img src="/assets/images/3.png" class="pngbox" width="320px;">
