@@ -67,6 +67,7 @@ class Common extends CI_Controller {
 					"link"=>$data->link,
 					"content"=>$data->content,
 					"thumbnail"=>$data->thumbnail,
+					"authorAvatar"=>$data->authorAvatar,
 					"time"=>date("Y-m-d H:i:s")
 				);
 				if(isset($data->author)){

@@ -110,6 +110,7 @@ function saveEssay(){
         return false;
     }
     $("#editEssayDiv").hide();
+    //alert($("#thumbnail2").attr('src'));
     showWait();
     var essay = new Object();
     essay.infoType = 'essay';
@@ -120,6 +121,8 @@ function saveEssay(){
     essay.link = $("#link1").val();
     essay.summary = $("#summary1").val();
     essay.thumbnail = $("#thumbnail1").attr('src');
+    essay.authorAvatar = $("#thumbnail2").attr('src');
+
     essay.content = contentEditor1.html();
     if($("#author1").length > 0){
         essay.author = $("#author1").val();

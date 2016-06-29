@@ -152,7 +152,7 @@
 								<li>
 									<div class="comments_list_gks">
 										<a class="comments_list_img" href=""><img alt="玛格丽特公主 " src="<?php echo $qds->thumbnail?>"></a>
-										<a class="comments_list_avatar" href=""><img src="/assets/images/55506e8dcb566.jpg"></a>
+										<a class="comments_list_avatar" href=""><img src="<?php echo $qds->authorAvatar;?>"></a>
 									</div>
 									<div class="comments_list_text"><?php echo $qds->content?></div>
 									<div class="comments_list_name"><?php echo $qds->summary?></div>

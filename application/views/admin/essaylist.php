@@ -223,6 +223,18 @@
 						<input id="summary1" type="text" class="km-form-control" style="width:400px;">
 					</li>
 					<li>
+						<label for="thumbnail">头像(轻断食体验头像) ： </label>
+						<div style="position:relative;display: inline-block;">
+							<img id="thumbnail2" src="" width="100" height="100" style="cursor:pointer;">
+							<div id="thumbnailOverLayer2" class="km-over-layer" onclick="$('#file2').click();" style="width:100px;height:100px;">
+								点击上传图片
+							</div>
+						</div>
+						<form id="uploadImgThumb2" enctype="multipart/form-data">
+							<input onchange="return uploadThumb2()" name="image" type="file" id="file2" style="display:none;" accept="image/*">
+						</form>
+					</li>
+					<li>
 						<label for="thumbnail">缩略图 ： </label>
 						<div style="position:relative;display: inline-block;">
 							<img id="thumbnail1" src="" width="100" height="100" style="cursor:pointer;">
