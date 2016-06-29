@@ -117,7 +117,7 @@
 		<?php if(isset($meiriliuping[0])):?>
 		<div class="re_index_03"><img src="<?php echo $meiriliuping[0]->thumbnail;?>" width="100%"></div>
 		<?php endif;?>
-		<div class="re_index_04" style="border-bottom: 1px solid #aaaaaa;">
+		<div class="re_index_04" style="border-bottom: 1px solid #aaaaaa; padding-top:30px; padding-bottom:35px;">
 			<div class="re_index_04_cont" >
 				<div class="re_index_04_box">
 					<div class="re_index_nice">
