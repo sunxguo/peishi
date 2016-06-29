@@ -342,7 +342,7 @@
 											<?php echo $cidibuzhong[0]->content;?>
 										<?php endif;?>
 										<span style="font-size:16px; color:#666666;">7x12小时专心服务，请通过任意方式联系我们</span>
-                                    <div style="margin-right:-600px; margin-top:-100px; " >
+                                    <div style="margin-right:-400px; margin-top:-100px; " >
 										<!--<?php if(isset($cidibuzuo[0])):?>
 											<?php echo $cidibuzuo[0]->content;?>
 										<?php endif;?>-->

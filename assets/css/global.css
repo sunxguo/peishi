@@ -867,10 +867,10 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .express td{padding: 5px 10px; border: 1px solid #eee;}
 .express td a{color: #2ad2c9; border-bottom: 1px solid #2ad2c9;}
 .express th{padding: 5px 10px; border: 1px solid #eee;}
-.re_index_01{padding-bottom: 50px; position: relative; border-bottom: 1px solid #c9dddf;}
+.re_index_01{padding-bottom: 50px; position: relative; border-bottom: 1px solid #666666;}
 .re_index_01:after{content: ''; display: inline-block; width:37px; height: 15px; background: url(../images/re_index_icon.jpg); position: absolute; bottom: -15px; left: 50%; margin-left: -17px;}
 .re_index_pro{width: 1000px; margin: 0 auto;}
-.re_index_tittle{font-size: 32px; color: #222222; padding: 50px 0 40px 0; text-align: center; box-shadow:inset 1px 2px 2px #ccc;}
+.re_index_tittle{font-size: 32px; color: #222222; padding: 50px 0 40px 0; text-align: center; }
 .re_index_tittle:after{content: ''; width: 46px; height: 1px; border-bottom: 1px solid #222222; display: inline-block; vertical-align: super; margin-left: 20px;}
 .re_index_tittle:before{content: ''; width: 46px; height: 1px; border-bottom: 1px solid #222222; display: inline-block; vertical-align: super; margin-right: 20px;}
 .re_index_pro_list{width: 320px;float: left;}
