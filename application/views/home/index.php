@@ -118,7 +118,7 @@
 		<div class="re_index_03"><img src="<?php echo $meiriliuping[0]->thumbnail;?>" width="100%"></div>
 		<?php endif;?>
 		<div class="re_index_04" style="border-bottom: 1px solid #aaaaaa;">
-			<div class="re_index_04_cont">
+			<div class="re_index_04_cont" >
 				<div class="re_index_04_box">
 					<div class="re_index_nice">
 						<div class="re_index_nice_t"><a href=""><img src="/assets/images/re_index_03.png"></a></div>
@@ -181,13 +181,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="index_content_03 TranTop">
+		<div class="index_content_03 TranTop" style="margin-top:50px;">
 			<h2>品牌活动</h2>
 			<ul class="clearfix">
 				<?php foreach($pinpaihuodong as $pphd):?>
 				<li>
 					<a href="<?php echo $qdgs->islink==0?'/home/essay?id='.$qdgs->id:$qdgs->link;?>">
-						<img src="<?php echo $pphd->thumbnail;?>" width="100%;">
+						<img src="<?php echo $pphd->thumbnail;?>" width="100%;" height="95%;">
 						<img src="/assets/images/3.png" class="pngbox" width="320px;">
 						<div class="blog_info">
 							<p class="blog_data"><?php echo date("Y/m/d",strtotime($pphd->time));?></p>
