@@ -99,7 +99,7 @@ var NTKF_PARAM = {
 			<ul></ul>
 		</div>
 		<div class="qa_list_link QaList">
-			<ul><!-- <li>1、为什么高温灭菌会破坏营养，超高压灭菌就会保护营养？</li><li>2、超高压处理有高压锅的压强高吗</li><li>3、为什么开盖后，(per se)生果汁会变色？</li><li>4、为什么经过非热超高压灭菌的(perse)生果汁de纯果还需要冷藏？</li><li>5、(perse)生果汁de纯果比生吃果蔬要好吗？</li> --><!-- <li>6、我挺担心，我会很疲惫吗？</li><li>7、轻断食会不会降低我的新陈代谢？</li><li>8、怀孕/哺乳/生病/生理期，能喝吗？</li><li>9、我对有些食物过敏，还能喝吗？</li><li>10、有年龄限制么？</li><li>11、哪些人不适合饮用？</li> --></ul>
+			<ul></ul>
 		</div>
 		<div class="qa_data QaData this">
 			<span></span>
@@ -108,35 +108,7 @@ var NTKF_PARAM = {
 </div>
 <script type="text/javascript">
 window.onload=function(){
-	var QaMentList = '';
-	for (var i = 0; i < Qa.length; i++) {
-		QaMentList += '<li>'+Qa[i][0]['class']+'</li>';
-		$('.QaMent ul').html(QaMentList);
-	}
-	$('.QaMent li').on('click',function(){
-		var num = $(this).index();
-		var QaList = '';
-		for(var i = 1; i<Qa[num].length; i++){
-			QaList += '<li>'+Qa[num][i]['q']+'</li>';
-		}
-		$('.QaList ul').html(QaList);
-		$('.QaMent li').removeClass('this');
-		$(this).addClass('this');
-		$('.QaData span').html('');
-		$('.QaMentBg').animate({'top':num*61});
-		$('.QaData').removeClass('this');
-	});
-	$('.QaList').on('click','li',function(){
-		var n = $(this).index() + 1;
-		var num = $('.QaMent li.this').index();
-		var QaData = '';
-		QaData = Qa[num][n]['a'];
-		$('.QaData span').html(QaData);
-		$('.QaData').addClass('this');
-		$('.QaList li').removeClass('this');
-		$(this).addClass('this');
-	})
-	$('.QaMent li').eq(0).click();
+	//帮助中心三张图片 的js
 	$('.QaIcon').on('mouseenter',function(event){
 		event.stopPropagation();
 		$('.QaMask').animate({'opacity':0}, "fast")
@@ -149,6 +121,42 @@ window.onload=function(){
 		}
 		
 	})
+	//常见问题的js  人头详情在qa.js中
+	var QaMentList = '';
+	//查出有几个问题 遍历 把class放到ul中
+	for (var i = 0; i < Qa.length; i++) {
+		QaMentList += '<li>'+Qa[i][0]['class']+'</li>';
+		$('.QaMent ul').html(QaMentList);
+	}
+	//num  表示当前选择了第几个 class 
+	$('.QaMent li').on('click',function(){
+		var num = $(this).index();
+		//alert(num);
+		var QaList = '';
+		
+		for(var i = 1; i<Qa[num].length; i++){
+			QaList += '<li>'+Qa[num][i]['q']+'</li>';
+		}
+		$('.QaList ul').html(QaList);
+		$('.QaMent li').removeClass('this');
+		$(this).addClass('this');
+		$('.QaData span').html('');
+		$('.QaMentBg').animate({'top':num*61});
+		$('.QaData').removeClass('this');
+	});
+	$('.QaList').on('click','li',function(){
+		var n = $(this).index() + 1;
+		//alert(n);
+		var num = $('.QaMent li.this').index();
+		var QaData = '';
+		QaData = Qa[num][n]['a'];
+		$('.QaData span').html(QaData);
+		$('.QaData').addClass('this');
+		$('.QaList li').removeClass('this');
+		$(this).addClass('this');
+	})
+	$('.QaMent li').eq(0).click();
+	
 }
 </script>
 </div>

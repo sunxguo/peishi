@@ -32,27 +32,28 @@
 	<script data-requiremodule="lang" src="/assets/js/zh_cn.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="chatManage" src="/assets/js/chat.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="Window" src="/assets/js/nt2.js" charset="utf-8" async="async" type="text/javascript"></script></head>
 	<body>
 		<div class="wrap Wrap">
-			<div class="navtop">
+			<!-- <div class="navtop">
 				<div class="navtop_box">
 									<div class="login_bar">
 
 					</div>
 									<div class="navtop_info">沛于己，时在行!</div>
 				</div>
-			</div>
-			<div class="header ">
+			</div> -->
+			<div class="header">
 				<div class="heard_warp clearfix">
 					<div class="logo">
 						<a href="/"></a>
-						<img src="/assets/images/re_index_logo.png" width="70px">
+						<img src="/assets/images/re_index_logo.png" width="100px">
 					</div>
 					<div class="header_bar HeaderBar">
 						<ul>
-							<li><a class="this" href="/">首页</a></li>
-							<li><a class="" href="/home/productlist">产品</a></li>
-							<li><a class="" href="/home/comment">论坛</a></li>
-							<li><a class="" href="/home/brand">品牌活动</a></li>
-							<li><a class="" href="/home/service">品牌理念</a></li>
+							<li><a class="this" href="/" style="color:#222222;">首页</a></li>
+							<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
+							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+							
 						</ul>
 						<div class="shoping_car">
 							<a class="ShoppingCarLink" href=""></a>
@@ -85,7 +86,7 @@
 			<a href="javascript:;" class="pic_next BannerNext"><img src="/assets/images/a.png" width="100%;"></a>
 		</div>
 		<div class="re_index_01">
-			<div class="re_index_tittle">轻断食果蔬汁</div>
+			<div class="re_index_tittle">沛时生果汁</div>
 			<div class="re_index_pro clearfix">
 				<?php foreach($qingduanguoshus as $key=>$qdgs):?>
 				<div class="re_index_pro_list" <?php if($key>2):?>style="margin-top: 30px;"<?php endif;?>>
@@ -98,7 +99,7 @@
 							</ul>
 						</div>
 					</a>
-					<div class="re_index_pro_btn"><a href="<?php echo $qdgs->islink==0?'/home/essay?id='.$qdgs->id:$qdgs->link;?>">查看详情</a></div>
+					<!-- <div class="re_index_pro_btn"><a href="<?php echo $qdgs->islink==0?'/home/essay?id='.$qdgs->id:$qdgs->link;?>">查看详情</a></div> -->
 				</div>
 				<?php endforeach;?>
 			</div>
@@ -324,39 +325,43 @@
 	})
 	</script>
 			</div>
-				<div class="footer">
+				    <div class="footer" style="border-bottom: 1px solid #c8ce72;">
 							<div class="footer_logo" >
 								<?php if(isset($cidibushang[0])):?>					
-									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="280px" >
+									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="100px" >
 								<?php endif;?>
 							</div>
 							<div class="footer_info">
-								<div class="eq_code">
+								<!-- <div class="eq_code">
 									<?php if(isset($cidibuzuo[0])):?>
 										<?php echo $cidibuzuo[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 								<div class="about_we">
 									<?php if(isset($cidibuzhong[0])):?>
 										<?php echo $cidibuzhong[0]->content;?>
 									<?php endif;?>
+
 								</div>
-								<div class="better_me" style="margin-top:-26px;">
+								<?php if(isset($cidibuzuo[0])):?>
+										<?php echo $cidibuzuo[0]->content;?>
+									<?php endif;?>
+								<!-- <div class="better_me" style="margin-top:-26px;">
 									<?php if(isset($cidibuyou[0])):?>
 										<?php echo $cidibuyou[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="friendly_link">
 							<ul>
-								<li><a href="/home/aboutus">关于沛时</a></li>
-								<li><a href="/home/contactus">联系我们</a></li>
-								<li><a href="/home/help">帮助中心</a></li>
-								<li><a href="/home/brand">品牌活动</a></li>
+								<li><a href="/home/aboutus" style="color: #aaaaaa;">关于沛时</a></li>
+								<li><a href="/home/contactus" style="color: #aaaaaa;">联系我们</a></li>
+								<li><a href="/home/help" style="color: #aaaaaa;">帮助中心</a></li>
+								<li><a href="/home/brand" style="color: #aaaaaa;">品牌活动</a></li>
 								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
-							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px; color:#aaaaaa;">
 			               	    <p>
 			               	    	<?php if(isset($dibu[0])):?>
 										<?php echo $dibu[0]->content;?>
