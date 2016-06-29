@@ -332,31 +332,41 @@
 								<?php endif;?>
 							</div>
 							<div class="footer_info">
-								<div class="eq_code">
+								<!-- <div class="eq_code">
 									<?php if(isset($cidibuzuo[0])):?>
 										<?php echo $cidibuzuo[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 								<div class="about_we">
-									<?php if(isset($cidibuzhong[0])):?>
-										<?php echo $cidibuzhong[0]->content;?>
-									<?php endif;?>
-                                   
+										<?php if(isset($cidibuzhong[0])):?>
+											<?php echo $cidibuzhong[0]->content;?>
+										<?php endif;?>
+										<span style="font-size:16px; color:#666666;">7x12小时专心服务，请通过任意方式联系我们</span>
+                                    <div style="margin-right:-600px; margin-top:-100px; " >
+										<!--<?php if(isset($cidibuzuo[0])):?>
+											<?php echo $cidibuzuo[0]->content;?>
+										<?php endif;?>-->
+										<span style="float:left; margin-left:680px; color:#222222;">大型合作：market@newperse.cn</span><br/>
+										<span style="float:left; margin-left:680px; color:#222222;">微信公众号：persejuice</span><br/>
+										<span style="float:left; margin-left:680px; color:#222222;">客服热线：4006-801-201</span><br/>
+									</div>
 								</div>
+
+
 								
-								<div class="better_me" style="margin-top:-26px;">
+								<!-- <div class="better_me" style="margin-top:-26px;">
 									<?php if(isset($cidibuyou[0])):?>
 										<?php echo $cidibuyou[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="friendly_link">
 							<ul>
-								<li><a href="/home/aboutus" style="color: #aaaaaa; font-size:16px;">关于沛时</a></li>
-								<li><a href="/home/contactus" style="color: #aaaaaa; font-size:16px;">联系我们</a></li>
-								<li><a href="/home/help" style="color: #aaaaaa; font-size:16px;">帮助中心</a></li>
-								<li><a href="/home/brand" style="color: #aaaaaa; font-size:16px;">品牌活动</a></li>
+								<li><a href="/home/aboutus" style="color: #666666; font-size:16px;">关于沛时</a></li>
+								<li><a href="/home/contactus" style="color: #666666; font-size:16px;">联系我们</a></li>
+								<li><a href="/home/help" style="color: #666666; font-size:16px;">帮助中心</a></li>
+								<li><a href="/home/brand" style="color: #666666; font-size:16px;">品牌活动</a></li>
 								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
 							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px; color:#aaaaaa;">
