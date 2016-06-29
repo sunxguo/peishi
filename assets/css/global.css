@@ -10,7 +10,7 @@
 .header_bar ul{position: absolute; left: 50%; margin-left: -225px; top: 20px;}
 .header_bar li{float: left; line-height: 60px;}
 .header_bar li a{float: left; color: #7ac143; margin-right: 30px; font-size: 16px; margin-top: 8px; line-height: 24px; padding: 0 2px;}
-.header_bar li a.this{border-bottom: 2px solid #222222;}
+.header_bar li a.this{border-bottom: 2px solid #7ac143;}
 .shoping_car{float: left; margin-right: 15px; margin-left:95px; margin-top:6px;}
 .shoping_car a{width: 24px; height: 22px; display: inline-block; background: url(../images/re_index_car.jpg) no-repeat; position: relative;}
 .shopping_num_1{background: #ff585d; display: inline-block; position: absolute; left: -32px; color: #fff; width: 24px; text-align: center;}
@@ -394,7 +394,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .BannerBox li:nth-child(1){opacity: 1; transition: opacity .8s ease;}
 .BannerBox li.this{opacity: 1; transition: opacity .8s ease; z-index: 9;}
 .product_slides_btn{position:absolute; z-index: 99; bottom: 20px; width: 100%; text-align: center;}
-.product_slides_btn li{display: inline-block; width: 12px; height: 12px; border-radius: 10px; border: 1px solid #fff; background: #666666; margin: 0 5px;}
+.product_slides_btn li{display: inline-block; width: 12px; height: 12px; border-radius: 10px; border: 1px solid #666666; background: #666666; margin: 0 5px;}
 .product_slides_btn li:hover{ background: #666666;}
 .product_slides_btn li.this{background: transparent;}
 .banner_info{position: absolute; top: 21%; font-size: 50px; color: #fff; font-weight: 100;  width: 100%; text-align: center;}

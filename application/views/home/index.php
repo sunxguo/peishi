@@ -40,7 +40,7 @@
 									<div class="navtop_info">沛于己，时在行!</div>
 				</div>
 			</div> -->
-			<div class="header">
+			<div class="header" style="border-bottom: 1px solid #7ac143;">
 				<div class="heard_warp clearfix">
 					<div class="logo">
 						<a href="/"></a>
