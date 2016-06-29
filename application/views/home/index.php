@@ -117,7 +117,7 @@
 		<?php if(isset($meiriliuping[0])):?>
 		<div class="re_index_03"><img src="<?php echo $meiriliuping[0]->thumbnail;?>" width="100%"></div>
 		<?php endif;?>
-		<div class="re_index_04" style="border-bottom: 1px solid #666666;">
+		<div class="re_index_04" style="border-bottom: 1px solid #aaaaaa;">
 			<div class="re_index_04_cont">
 				<div class="re_index_04_box">
 					<div class="re_index_nice">
@@ -325,7 +325,7 @@
 	})
 	</script>
 			</div>
-				    <div class="footer" style="border-bottom: 1px solid #666666;">
+				    <div class="footer" style="border-bottom: 1px solid #aaaaaa;">
 							<div class="footer_logo" >
 								<?php if(isset($cidibushang[0])):?>					
 									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="100px" >
