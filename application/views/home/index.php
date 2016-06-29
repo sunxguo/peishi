@@ -341,11 +341,11 @@
 									<?php if(isset($cidibuzhong[0])):?>
 										<?php echo $cidibuzhong[0]->content;?>
 									<?php endif;?>
-
-								</div>
-								<?php if(isset($cidibuzuo[0])):?>
+                                    <?php if(isset($cidibuzuo[0])):?>
 										<?php echo $cidibuzuo[0]->content;?>
 									<?php endif;?>
+								</div>
+								
 								<!-- <div class="better_me" style="margin-top:-26px;">
 									<?php if(isset($cidibuyou[0])):?>
 										<?php echo $cidibuyou[0]->content;?>
@@ -355,7 +355,7 @@
 						</div>
 						<div class="friendly_link">
 							<ul>
-								<li><a href="/home/aboutus" style="color: #aaaaaa;">关于沛时</a></li>
+								<li><a href="/home/aboutus" style="color: #aaaaaa; padding-right:20px">关于沛时</a></li>
 								<li><a href="/home/contactus" style="color: #aaaaaa;">联系我们</a></li>
 								<li><a href="/home/help" style="color: #aaaaaa;">帮助中心</a></li>
 								<li><a href="/home/brand" style="color: #aaaaaa;">品牌活动</a></li>
