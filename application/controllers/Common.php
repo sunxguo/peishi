@@ -24,6 +24,7 @@ class Common extends CI_Controller {
 					"summary"=>$data->summary,
 					"content"=>$data->content,
 					"thumbnail"=>$data->thumbnail,
+					"authorAvatar"=>$data->authorAvatar,
 					"author"=>1,
 					"time"=>date("Y-m-d H:i:s")
 				);

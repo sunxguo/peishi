@@ -88,6 +88,7 @@ function addEssay(){
     essay.link = $("#link").val();
     essay.summary = $("#summary").val();
     essay.thumbnail = $("#thumbnail").attr('src');
+    essay.authorAvatar = $("#thumbnail2").attr('src');
     essay.content = contentEditor.html();
     if($("#author").length > 0){
         essay.author = $("#author").val();
