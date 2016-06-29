@@ -341,9 +341,7 @@
 									<?php if(isset($cidibuzhong[0])):?>
 										<?php echo $cidibuzhong[0]->content;?>
 									<?php endif;?>
-                                    <?php if(isset($cidibuzuo[0])):?>
-										<?php echo $cidibuzuo[0]->content;?>
-									<?php endif;?>
+                                   
 								</div>
 								
 								<!-- <div class="better_me" style="margin-top:-26px;">
