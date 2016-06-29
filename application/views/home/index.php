@@ -51,8 +51,8 @@
 							<li><a class="this" href="/" style="color:#222222;">首页</a></li>
 							<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
 							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
-							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 							
 						</ul>
 						<div class="shoping_car">
@@ -94,7 +94,7 @@
 						<div class="re_index_pro_tit"><?php echo $qdgs->title;?></div>
 						<div class="re_index_pro_box">
 							<ul>
-								<li class="re_index_pro_img"><img src="<?php echo $qdgs->thumbnail;?>" height="137px" width="250px"></li>
+								<li class="re_index_pro_img"><img src="<?php echo $qdgs->thumbnail;?>" height="250px" width="250px"></li>
 								<li class="re_index_pro_info"><?php echo $qdgs->summary;?></li>
 							</ul>
 						</div>
