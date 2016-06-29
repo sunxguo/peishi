@@ -30,7 +30,7 @@
 .login_bar{float: right;color: #fff;}
 .login_bar a{font-size: 14px; color: #fff;display: inline-block;}
 .footer{height: 400px; text-align: center;}
-.footer_logo{text-align: center; padding: 35px 0;}
+.footer_logo{text-align: center; padding: 25px 0;}
 .footer_info{width: 1000px; margin: 0 auto;display:box; display: -webkit-box; display: -moz-box; display: -ms-flexbox;}
 .eq_code{-moz-box-flex:1; -webkit-box-flex:1;box-flex:1; -ms-flex: 1;border-right: 1px solid #c8ce72;  color: #fff;  float: left\9; width: 167px\9\0;}
 .eq_code p {padding-top: 10px; font-size: 12px; line-height: 18px;}
