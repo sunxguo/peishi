@@ -187,7 +187,7 @@
 				<?php foreach($pinpaihuodong as $pphd):?>
 				<li>
 					<a href="<?php echo $qdgs->islink==0?'/home/essay?id='.$qdgs->id:$qdgs->link;?>">
-						<img src="<?php echo $pphd->thumbnail;?>">
+						<img src="<?php echo $pphd->thumbnail;?>" width="100%;" >
 						<img src="/assets/images/3.png" class="pngbox" width="320px;">
 						<div class="blog_info">
 							<p class="blog_data"><?php echo date("Y/m/d",strtotime($pphd->time));?></p>
