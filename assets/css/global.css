@@ -442,7 +442,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .comments_silder ul li{float: left; font-size: 0;}
 .pic_pre{background: rgba(102,102,102,.2); border-radius: 2px; display: inline-block; width: 62px; height: 123px; position: absolute; top: 50%; margin-top: -61px; left: 50px; z-index: 999;}
 .pic_pre img{-moz-transform:rotate(180deg); -webkit-transform:rotate(180deg);transform:rotate(180deg); -ms-transform:rotate(180deg);}
-.pic_pre:hover{background: rgba(255,255,255,.3);}
+.pic_pre:hover{background: rgba(102,102,102,.3);}
 .pic_next{background: rgba(102,102,102,.2); border-radius: 2px; display: inline-block; width: 62px; height: 123px; position: absolute; top: 50%; margin-top: -61px; right: 50px;z-index: 999;}
 .pic_next:hover{background: rgba(102,102,102,.3);}
 /*产品页面*/
