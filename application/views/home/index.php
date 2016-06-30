@@ -121,7 +121,7 @@
 			<div class="re_index_04_cont" >
 				<div class="re_index_04_box">
 					<div class="re_index_nice">
-						<div class="re_index_nice_t"><a href=""><img src="/assets/images/re_index_03.png"></a></div>
+						<div class="re_index_nice_t"><a href=""><img src="/assets/images/re_index_03.jpg"></a></div>
 						<div class="re_index_nice_b">
 							<div class="re_index_nice_box ReindexBox">
 								<ul>
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="index_content_03 TranTop" style="margin-top:50px;">
+		<div class="index_content_03 TranTop" style="padding-top:50px;">
 			<h2>品牌活动</h2>
 			<ul class="clearfix">
 				<?php foreach($pinpaihuodong as $pphd):?>

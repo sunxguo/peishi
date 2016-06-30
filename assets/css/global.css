@@ -900,10 +900,10 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .re_index_gks_b .comments_list_text{color: #565656; padding-top: 10px; width: 190px; line-height: 20px;}
 .re_index_gks_b .comments_list_img img{width: 210px;-webkit-transition:all .4s;-moz-transition:all .4s;-ms-transition:all .4s;}
 .re_index_gks_b .comments_list_img:hover img{-webkit-transition:all .4s;-webkit-transform:scale(1.05,1.05); -moz-transition:all .4s;-moz-transform:scale(1.05,1.05); -ms-transition:all .4s;-ms-transform:scale(1.05,1.05)}
-.re_index_nice{ width: 299px; float: left; margin-right: 10px;}
+.re_index_nice{ width: 299px; float: left; margin-right: 49px;}
 .re_index_nice_b{ margin-top: 10px;}
 .re_index_04{background: #fff; padding: 60px 0;}
-.re_index_04_cont{width: 960px; margin: 0 auto; padding: 20px; background: #ffffff;}
+.re_index_04_cont{width: 1000px; margin: 0 auto; padding: 20px; background: #ffffff;}
 .re_index_nice_box ul{position:relative; width: 299px; height: 390px;}
 .re_index_nice_box li{ position: absolute; top:0; left: 0; -webkit-transition:all .8s;-ms-transition:all .8s; -moz-transition:all .8s; opacity: 0;}
 .re_index_nice_box li.this{opacity: 1; -webkit-transition:all .8s;-ms-transition:all .8s; -moz-transition:all .8s;}
