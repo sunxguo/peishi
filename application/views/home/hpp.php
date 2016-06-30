@@ -66,8 +66,12 @@ var NTKF_PARAM = {
 			
 <div class="technics_main">
 	<?php foreach($hpps as $hpp):?>
-	<div class="technics_content_1">
+	<div class="technics_content_3">
 		<img style="display: inline;" src="<?php echo $hpp->thumbnail;?>" class="lazy" alt="" width="100%">
+		<h2><?php echo $hpp->summary;?></h2>
+	</div>
+    <div class="technics_content_10">
+		<p><?php echo $hpp->content;?></p>
 	</div>
 	<?php endforeach;?>
 </div>
