@@ -562,12 +562,12 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .technics_content_6 p{position: absolute; top: 40%; width: 100%; text-align: center; font-size: 32px; text-align: center; color: #454545;}
 /*品牌信念*/
 .brand_content_1,.brand_content_2,.brand_content_3{position: relative;}
-.brand_content_1 h2{position: absolute;top: 30%; padding-left:10%; width: 90%; text-align: center; font-size: 36px; color: #fff; }
+.brand_content_1 h2{position: absolute;top: 30%; padding-left:7%; padding-top:7%; width: 90%; text-align: center; font-size: 36px; color: #fff; }
 .brand_content_1 p{width: 810px; line-height: 30px; font-size: 16px; color:#fff; margin: 50px auto; color: #656565;}
 .brand_content_2{width: 100%;background: #fff;}
 .brand_content_2 .brand_content_l{width: 50%; float: left;}
 .brand_content_2 .brand_content_r{width: 50%;  float: left;}
-.brand_content_2 h2{font-size: 32px; color: #7ac143;  padding-top: 14%; padding-bottom: 5%; padding-left: 10%;}
+.brand_content_2 h2{font-size: 36px; color: #7ac143;  padding-top: 14%; padding-bottom: 5%; padding-left: 10%;}
 .brand_content_2 p{width: 430px; line-height: 30px; font-size: 16px; color:#454545; padding-left: 10%;}
 .brand_content_3{width: 100%;background: #fff;}
 .brand_content_3 .brand_content_l{width: 50%; float: left;}
@@ -765,7 +765,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .joinus_content_3 a{position: absolute; background: #2ad2c9; color: #fff; text-align: center;  padding: 0 20px; height: 36px; line-height: 36px; box-shadow: 0 1px 0 #49b1aa; border-radius: 2px; left: 155px; bottom: 75px;}
 .joinus_content_3 a:hover{background: #22c9c0;}
 .joinus_content_5{position: relative; margin-top: 0px;}
-.joinus_content_5 h2{color:#fff; position: absolute; top: 47%; text-align: center; font-size: 24px; width: 100%;}
+.joinus_content_5 h2{color:#fff; position: absolute; top: 47%; text-align: center; font-size: 36px; width: 100%;}
 /*微信支付*/
 .wepay_main{padding-top: 40px}
 .wepay_content_1{width: 920px; height: 610px; background: url(../images/session_icon_1.png) no-repeat 380px center #e0f0ef; margin: 0 auto; position: relative;}

@@ -57,7 +57,7 @@ var NTKF_PARAM = {
 				</div>
 			</div>
 		</div>
-		<div class="about_nav">
+		<div class="about_nav" style="border-top: 1px solid #7ac143;">
 			<a href="/home/service" style="color:#8ac354;">品牌信念</a>
 			<a href="/home/productservice" class=""> 产品工艺</a>
 			<a href="/home/hpp" class=""> HPP技术</a>
@@ -70,7 +70,6 @@ var NTKF_PARAM = {
 	<div class="brand_content_1">
 		<img style="display: inline;" src="<?php echo $service1[0]->thumbnail;?>" class="lazy" alt="" width="100%">	
 		<h2><?php echo $service1[0]->title;?></h2>
-		
 	</div>
 	<?php endif;?>
 	<?php if(count($service2)>0):?>
