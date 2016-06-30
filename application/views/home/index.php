@@ -108,7 +108,7 @@
 		<div class="re_index_02">
 			<div class="re_index_02_three">
 				<div class="re_index_02_tit">"沛时"轻断食果蔬汁<span>3</span>天变美计划</div>
-				<!-- <p>每月定时轻断食，严格控制热量摄入，每天600~800卡路里的冷压果蔬汁餐单，为身体提供必须营养和能量的同时，消耗掉身体多余的糖分和脂肪，以健康的方式控制体重，获得好身材。</p> -->
+				
 				<p class="pt10 pb10"><?php echo $santianbianmei[0]->content;?></p>
 				<img src="<?php echo $santianbianmei[0]->thumbnail;?>">
 			</div>
