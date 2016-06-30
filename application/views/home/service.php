@@ -70,7 +70,7 @@ var NTKF_PARAM = {
 	<div class="brand_content_1">
 		<img style="display: inline;" src="<?php echo $service1[0]->thumbnail;?>" class="lazy" alt="" width="100%">	
 		<h2><?php echo $service1[0]->title;?></h2>
-		<p><?php echo $service1[0]->content;?></p>
+		
 	</div>
 	<?php endif;?>
 	<?php if(count($service2)>0):?>
@@ -82,13 +82,7 @@ var NTKF_PARAM = {
 		<a href="/home/productservice">了解"沛时"生产工艺</a>
 	</div>
 	<?php endif;?>
-	<!-- <div class="brand_content_2 clearfix">
-		<div class="brand_content_l"><img  class="lazy" data-original="/Public/Home/images/brand_icon_2.jpg" alt="" width="100%"></div>
-		<div class="brand_content_r">
-			<h2>天然甜味剂</h2>
-			<p>我们致力于使美味的果汁只使用自然的水果和蔬菜，包括我们的甜味剂。我们使用龙舌兰糖浆和甜菊糖（使用传统自然工艺提取自龙舌兰茎秆和甜菊叶），0脂肪、极低的热量和低升糖指数，亦能照顾糖尿病患者。</p>
-		</div>
-	</div> -->
+	
 	<?php if(count($service3)>0):?>
 	<div class="brand_content_3 clearfix">
 		<div class="brand_content_l">
