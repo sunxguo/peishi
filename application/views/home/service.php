@@ -115,7 +115,7 @@ var NTKF_PARAM = {
 		<div class="footer" style="border-bottom: 1px solid #aaaaaa;">
 							<div class="footer_logo" >
 								<?php if(isset($cidibushang[0])):?>					
-									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="280px" >
+									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="100px" >
 								<?php endif;?>
 							</div>
 							<div class="footer_info">
