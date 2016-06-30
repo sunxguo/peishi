@@ -470,16 +470,16 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .product_content_4 ul{text-align: left; width: 320px; display: inline-block;float: left;}
 .product_content_4 ul li:nth-child(1){text-align: center; background: #e9e9e9; height: 250px;display: table-cell;vertical-align:middle; width: 320px;}
 .product_content_4 ul:nth-child(2){}
-.product_content_4 ul a{display: block; padding:10px; margin: 30px 0 }
+.product_content_4 ul a{display: block; padding:15px; margin: 30px 0 }
 .product_content_4 ul a:hover{box-shadow: 0 0 3px #999}
-.product_content_4 ul a li:nth-child(2){ font-size: 19px; color: #2ad2c9; border-bottom: 1px solid #cecece; padding: 10px 0;}
+.product_content_4 ul a li:nth-child(2){ font-size: 19px; color: #8ac354;  padding-top: 15px ; text-align:center}
 .product_content_4 ul li:nth-child(3){color: #8b8b8b; padding: 5px 0;}
 .product_content_4 li span{width: 158px; background: #ff585d; color: #fff; text-align: center; display: inline-block; line-height: 34px; margin-top: 15px; cursor: pointer;box-shadow: 1px 1px 1px #bbb;}
 .product_content_4 li a{width: 158px; background: #2ad2c9; color: #fff; text-align: center; display: inline-block; line-height: 34px; margin-top: 15px;box-shadow: 1px 1px 1px #bbb;}
 .product_content_4 li span:hover{background: #f7464b;}
 .product_content_4 li a:hover{background: #22c9c0;}
 .product_content_4 ul li:last-child{text-align: center;}
-.product_content_4 ul a li:last-child{text-align: left; height: 90px;}
+.product_content_4 ul a li:last-child{ height: 15px; color:#555555; text-align:center; padding-bottom:15px;}
 /*产品详情页*/
 .details_content_1{position: relative;}
 .details_pro{text-align: center; padding: 50px 0; background: #e9e9e9;box-shadow: 1px 0 1px #666;}
