@@ -43,11 +43,11 @@ var NTKF_PARAM = {
 				</div>
 				<div class="header_bar HeaderBar">
 					<ul>
-						<li><a class="" href="/">首页</a></li>
-							<li><a class="" href="/home/productlist">产品</a></li>
-							<li><a class="" href="/home/comment">论坛</a></li>
-							<li><a class="" href="/home/brand">品牌活动</a></li>
-							<li><a class="this" href="/home/service">品牌理念</a></li>
+						<li><a class="this" href="/" style="color:#222222;">首页</a></li>
+							<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 					</ul>
 					<div class="shoping_car">
 						<a class="ShoppingCarLink" href="http://www.heyjuice.cn/ShoppingCar">
