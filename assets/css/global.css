@@ -7,7 +7,7 @@
 .logo a{display: inline-block; display: block; z-index: 1; width: 60px; position: absolute; padding-top: 8px; height: 52px;}
 .logo img { position: absolute; top: 15px; z-index: 0;}
 .header_bar{float:right;}
-.header_bar ul{position: absolute; left: 50%; margin-left: -225px; top: 20px;}
+.header_bar ul{position: absolute; left: 50%; margin-left: -175px; top: 20px;}
 .header_bar li{float: left; line-height: 60px;}
 .header_bar li a{float: left; color: #7ac143; margin-right: 30px; font-size: 16px; margin-top: 8px; line-height: 24px; padding: 0 2px;}
 .header_bar li a.this{border-bottom: 2px solid #7ac143;}
@@ -764,7 +764,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .joinus_content_3{position: relative; width: 888px; margin: 0 auto;}
 .joinus_content_3 a{position: absolute; background: #2ad2c9; color: #fff; text-align: center;  padding: 0 20px; height: 36px; line-height: 36px; box-shadow: 0 1px 0 #49b1aa; border-radius: 2px; left: 155px; bottom: 75px;}
 .joinus_content_3 a:hover{background: #22c9c0;}
-.joinus_content_5{position: relative; margin-top: 50px;}
+.joinus_content_5{position: relative; margin-top: 0px;}
 .joinus_content_5 p{color:#fff; position: absolute; top: 47%; text-align: center; font-size: 24px; width: 100%;}
 /*微信支付*/
 .wepay_main{padding-top: 40px}
