@@ -40,15 +40,15 @@ var NTKF_PARAM = {
 			<div class="heard_warp clearfix">
 				<div class="logo">
 					<a href="/"></a>
-					<img src="/assets/images/re_index_logo.png" width="70px">
+					<img src="/assets/images/re_index_logo.png" width="100px">
 				</div>
 				<div class="header_bar HeaderBar">
 					<ul>
 						<li><a class="" href="/" style="color:#222222;">首页</a></li>
-							<li><a class="this" href="/home/service" style="color:#222222;">品牌理念</a></li>
-							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
-							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
-							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
+						<li><a class="this" href="/home/service" style="color:#222222;">品牌理念</a></li>
+						<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+						<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+						<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 					</ul>
 					<div class="shoping_car">
 						<a class="ShoppingCarLink" href="">

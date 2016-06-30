@@ -448,13 +448,13 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 /*产品页面*/
 .product_main{ background: #f2f2f2;}
 .product_content_1 {text-align: center; background:url(../images/bg_li.jpg) repeat-x bottom #fff;padding-bottom: 20px;}
-.product_content_1 h2{font-size: 36px; color: #03b0da; padding-top: 60px;}
+.product_content_1 h2{font-size: 36px; color: #222222; padding-top: 60px;}
 .product_content_1 ul{display: inline-block; padding-bottom: 30px;}
 .product_content_1 p{padding: 5px 0px; width: 280px; border-radius: 15px;  margin: 15px auto 38px auto; background: #7ac143; color: #fff; letter-spacing: 2px; position: relative;}
 .product_content_1 p:after{content: '';border-top: 18px solid  transparent;border-left: 18px solid #7ac143;border-bottom: 18px solid  transparent; position: absolute; bottom: -12px; right: 3px;}
 .product_content_1 li{float: left; width: 320px;}
 .product_content_1 li img{padding-bottom: 10px;}
-.product_content_1 li div{color: #454545; text-align: left;  padding:0 70px; border-right: 2px dotted #2ad2c9;  border-left: 2px dotted #2ad2c9;}
+.product_content_1 li div{color: #454545; text-align: left;  padding:0 70px;}
 .product_content_1 li h3{font-size: 24px; padding-bottom: 20px; margin-top: 40px; text-align: center; color: #616770; font-weight: bold; }
 .product_content_2{color: #fff; height: 220px; vertical-align: middle; text-align: center;}
 .product_content_2 ul{width: 233px; text-align: center; display: inline-block; margin-top: 30px; vertical-align: top;}
@@ -546,14 +546,18 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .details_flex td span{font-size: 24px; color: #ff585d;}
 /*产品工艺*/
 .technics_content_2{position: relative;}
-.technics_content_2 h2{position: absolute; top: 30%; left: 57%; font-size: 36px; color: #454545;}
+.technics_content_2 h2{position: absolute; top: 45%; left: 57%; font-size: 36px; color: #454545;}
 .technics_content_2 p{color: #fff; position: absolute; width: 480px; left: 57%; top: 50%; font-size: 18px; line-height: 30px;}
+.technics_content_7{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
+.technics_content_7 p{width: 810px; margin: 0 auto; text-align: left; font-weight:bold;}
+.technics_content_8{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
+.technics_content_8 p{width: 810px; margin: 0 auto; text-align: left; font-weight:bold;}
 .technics_content_3{position: relative;}
 .technics_content_3 p{position: absolute; top: 30%; width: 100%; text-align: center;}
 .technics_content_3 h2{position: absolute; top: 55%; width:100%; text-align: center; color: #fff; font-size: 36px;text-shadow:0px 0px 16px #333;}
 .technics_content_4{height:320px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
 .technics_content_4 p{width: 810px; margin: 0 auto; text-align: left;}
-.technics_content_5 a{display: inline-block;margin-bottom: 40px;color: #2ad2c9;border-bottom: 1px solid #2ad2c9;line-height: 18px;font-size: 16px;}
+.technics_content_5 a{display: inline-block;margin-bottom: 40px;color: #8ac354;border-bottom: 1px solid #8ac354;line-height: 18px;font-size: 16px;}
 .technics_content_5{position:relative; text-align: center;}
 .technics_content_5 h2{ width: 100%; text-align: center; font-size: 36px; color: #fff; position: absolute; top: 20%; padding-top: 50px;text-shadow: 0px 0px 16px #333;}
 .technics_content_5 p{color: #fff; line-height: 30px; text-align: left; font-size: 16px; color: #fff; width:810px; color: #5e5d5d; margin: 0 auto; padding-top: 50px; padding-bottom: 20px;}
