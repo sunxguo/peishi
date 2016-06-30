@@ -546,24 +546,24 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .details_flex td span{font-size: 24px; color: #ff585d;}
 /*产品工艺*/
 .technics_content_2{position: relative;}
-.technics_content_2 h2{position: absolute; top: 45%; left: 57%; font-size: 36px; color: #454545;}
+.technics_content_2 h2{position: absolute; top: 45%; left: 57%; font-size: 36px; color: #ffffff;}
 .technics_content_2 p{color: #fff; position: absolute; width: 480px; left: 57%; top: 50%; font-size: 18px; line-height: 30px;}
-.technics_content_7{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
-.technics_content_7 p{width: 810px; margin: 0 auto; text-align: left; font-weight:bold;}
-.technics_content_8{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
+.technics_content_7{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #fff; text-align: center;}
+.technics_content_7 p{width: 810px; margin: 0 auto; text-align: left;}
+.technics_content_8{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #fff; text-align: center;}
 .technics_content_8 p{width: 810px; margin: 0 auto; text-align: left; font-weight:bold;}
 .technics_content_3{position: relative;}
 .technics_content_3 p{position: absolute; top: 30%; width: 100%; text-align: center;}
 .technics_content_3 h2{position: absolute; top: 55%; width:100%; text-align: center; color: #fff; font-size: 36px;text-shadow:0px 0px 16px #333;}
-.technics_content_4{height:320px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #5e5d5d; text-align: center;}
+.technics_content_4{height:320px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #fff; text-align: center;}
 .technics_content_4 p{width: 810px; margin: 0 auto; text-align: left;}
 .technics_content_5 a{display: inline-block;margin-bottom: 40px;color: #8ac354;border-bottom: 1px solid #8ac354;line-height: 18px;font-size: 16px;}
 .technics_content_5{position:relative; text-align: center;}
 .technics_content_5 h2{ width: 100%; text-align: center; font-size: 36px; color: #fff; position: absolute; top: 20%; padding-top: 50px;text-shadow: 0px 0px 16px #333;}
-.technics_content_5 p{color: #fff; line-height: 30px; text-align: left; font-size: 16px; color: #fff; width:810px; color: #5e5d5d; margin: 0 auto; padding-top: 50px; padding-bottom: 20px;}
+.technics_content_5 p{color: #fff; line-height: 30px; text-align: left; font-size: 16px; color: #fff; width:810px; color: #fff; margin: 0 auto; padding-top: 50px; padding-bottom: 20px;}
 .technics_content_5 span img{position: absolute; top: 13%; left: 50%; margin-left: -43px;}
 .technics_content_6{position: relative;}
-.technics_content_6 p{position: absolute; top: 40%; width: 100%; text-align: center; font-size: 32px; text-align: center; color: #454545;}
+.technics_content_6 p{position: absolute; top: 50%; width: 100%; text-align: center; font-size: 36px; text-align: center; color: #fff;}
 /*品牌信念*/
 .brand_content_1,.brand_content_2,.brand_content_3{position: relative;}
 .brand_content_1 h2{position: absolute;top: 30%; padding-left:7%; padding-top:7%; width: 90%; text-align: center; font-size: 36px; color: #fff; }
