@@ -190,7 +190,7 @@
 						<img src="<?php echo $pphd->thumbnail;?>" width="100%;" >
 						<img src="/assets/images/3.png" class="pngbox" width="320px;">
 						<div class="blog_info">
-							<p class="blog_data"><?php echo date("Y/m/d",strtotime($pphd->time));?></p>
+							<p class="blog_data"><?php echo $pphd->summary;?></p>
 							<p class="blog_tit"><?php echo $pphd->title;?></p>
 						</div>
 					</a>
