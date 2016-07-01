@@ -626,14 +626,14 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 /*.qa_ment li.this{color: #fff; transition:color .5s;} #7ac143*/
 .qa_ment li.this{color: #fff; transition:color .5s;}
 .qa_list{background:url(../images/qa_bg.jpg) right #fff no-repeat; margin: 0 10px; height: 540px; box-shadow: 0 0 3px #aaa; position: relative;}
-.qa_list:before {content: '';border-top: 36px solid #f7f7f7;border-left: 36px solid transparent; border-bottom: 36px solid transparent;position: absolute;right: -3px;top: -3px;}
+.qa_list:before {content: '';border-top: 36px solid #aaaaaa;border-left: 36px solid transparent; border-bottom: 36px solid transparent;position: absolute;right: -3px;top: -3px;}
 .qa_icon_1,.qa_icon_2,.qa_icon_3{width: 308px; height: 214px; border: 6px solid #fff;}
 .qa_icon_1{background:#03b0da;}
 .qa_icon_2{background:#ffd143;}
 .qa_icon_3{background:#ff6a4d;}
 .qa_list li{cursor: pointer;}
-.qa_list_link{width: 365px; min-height: 234px;  padding: 10px 0 10px 10px;
- float: left; height: 100%;}
+.qa_list_link{width: 365px; min-height: 234px;  padding: 10px 0 0px 10px;
+ float: left; height: 98%; border-left:1px solid #aaa;}
 .qa_list_link li{line-height: 30px; color: #838a8e;}
 .qa_list_link ul{padding: 5px 20px 20px 20px;color: #8d8d8d;}
 .qa_list_link li.this{color: #8bc353;}
