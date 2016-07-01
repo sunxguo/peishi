@@ -43,8 +43,8 @@ var NTKF_PARAM = {
 				</div>
 				<div class="header_bar HeaderBar">
 					<ul>
-						<li><a class="this" href="/" style="color:#222222;">首页</a></li>
-						<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+						<li><a class="" href="/" style="color:#222222;">首页</a></li>
+						<li><a class="this" href="/home/service" style="color:#222222;">品牌理念</a></li>
 						<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
 						<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
 						<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
