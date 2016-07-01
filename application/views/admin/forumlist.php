@@ -229,13 +229,13 @@
 						<input id="author1" type="text" class="km-form-control" style="width:200px;">
 						<label for="authoravatar" style="width:80px;margin-left:10px;">作者头像 ： </label>
 						<div style="position:relative;display: inline-block;">
-							<img id="thumbnail3" src="" width="100" height="100" style="cursor:pointer;">
-							<div id="thumbnail3OverLayer" class="km-over-layer" onclick="$('#file3').click();" style="width:100px;height:100px;">
+							<img id="thumbnail2" src="" width="100" height="100" style="cursor:pointer;">
+							<div id="thumbnail2OverLayer" class="km-over-layer" onclick="$('#file2').click();" style="width:100px;height:100px;">
 								点击上传图片
 							</div>
 						</div>
 						<form id="uploadImgThumb2" enctype="multipart/form-data">
-							<input onchange="return uploadThumb3()" name="image" type="file" id="file3" style="display:none;" accept="image/*">
+							<input onchange="return uploadThumb2()" name="image" type="file" id="file3" style="display:none;" accept="image/*">
 						</form>
 					</li>
 					<li>
