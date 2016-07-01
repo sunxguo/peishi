@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			
-			<div class="about_tree_year box19"></div> 
+			 
 			<div class="about_tree_box box20 right bg_o">
 				<!-- <div class="about_tree_point"></div> -->
 				<div class="about_tree_title">2014年2月</div>
@@ -128,7 +128,7 @@
 			</div>
 		 -->
 		
-			<div class="about_tree_year box25"></div>
+				
 			<div class="about_tree_box box11 left bg_b">
 				<!-- <div class="about_tree_point"></div> -->
 				<div class="about_tree_title">2015年4月</div>
@@ -182,7 +182,7 @@
 				<img src="/assets/images/aboutus_201512.jpg" alt="">
 			</div>
 
-			<div class="about_tree_year box27"></div>
+			
 			 <div class="about_tree_box box28 left bg_b">
 				<!-- <div class="about_tree_point"></div> -->
 				<div class="about_tree_title">2016年1月</div>
