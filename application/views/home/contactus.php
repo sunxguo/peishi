@@ -27,27 +27,27 @@ var NTKF_PARAM = {
 <script src="index_files/userinfo.php" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="lang" src="/assets/js/zh_cn.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="chatManage" src="/assets/js/chat.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="Window" src="/assets/js/nt2.js" charset="utf-8" async="async" type="text/javascript"></script></head>
 <body>
 	<div class="wrap Wrap">
-		<div class="navtop">
+		<!-- <div class="navtop">
 			<div class="navtop_box">
 								<div class="login_bar">
 					
 				</div>
 								<div class="navtop_info">沛于己，时在行!</div>
 			</div>
-		</div>
-		<div class="header ">
+		</div> -->
+		<div class="header " style="border-bottom: 1px solid #7ac143;">
 			<div class="heard_warp clearfix">
-				<div class="logo">
+				<div class="logo" >
 					<a href="/"></a>
-					<img src="/assets/images/re_index_logo.png" width="70px">
+					<img src="/assets/images/re_index_logo.png" width="100px">
 				</div>
 				<div class="header_bar HeaderBar">
 					<ul>
-						<li><a class="this" href="/">首页</a></li>
-							<li><a class="" href="/home/productlist">产品</a></li>
-							<li><a class="" href="/home/comment">论坛</a></li>
-							<li><a class="" href="/home/brand">品牌活动</a></li>
-							<li><a class="" href="/home/service">品牌理念</a></li>
+						<li><a class="this" href="/" style="color:#222222;">首页</a></li>
+						<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+						<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+						<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+						<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 					</ul>
 					<div class="shoping_car">
 						<a class="ShoppingCarLink" href="">
@@ -57,16 +57,16 @@ var NTKF_PARAM = {
 				
 			</div>
 		</div>
-						<div class="about_nav">
-			<a href="/home/aboutus" class="">关于我们</a>
-				<a href="/home/contactus" class="this">联系我们</a>
+						<div class="about_nav" style="border-top: 1px solid #7ac143;">
+			<a href="/home/aboutus"  >关于我们</a>
+				<a href="/home/contactus" style="color:#8ac354;">联系我们</a>
 		</div>
 						<div class="main">
 			
 <div class="contact_main">
 	
 	<div class="contact_content_2" id="bd">
-		<img src="/assets/images/about_icon_3.jpg" alt="">
+		<img src="/assets/images/weixin.png" alt="">
 		<ul>	
 			<li>官方微博：http://weibo.com/persejuice</li>
 			<li>官方合作：market@newperse.cn</li>
@@ -82,40 +82,51 @@ var NTKF_PARAM = {
 	</div>
 </div>
 		</div>
-		<div class="footer">
+		 <div class="footer" style="border-bottom: 1px solid #aaaaaa;">
 							<div class="footer_logo" >
 								<?php if(isset($cidibushang[0])):?>					
-									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="280px" >
+									<img src="<?php echo $cidibushang[0]->thumbnail;?>" type="image/svg+xml" width="100px" >
 								<?php endif;?>
 							</div>
 							<div class="footer_info">
-								<div class="footer_info">
-								<div class="eq_code">
+								<!-- <div class="eq_code">
 									<?php if(isset($cidibuzuo[0])):?>
 										<?php echo $cidibuzuo[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 								<div class="about_we">
-									<?php if(isset($cidibuzhong[0])):?>
-										<?php echo $cidibuzhong[0]->content;?>
-									<?php endif;?>
+										<?php if(isset($cidibuzhong[0])):?>
+											<?php echo $cidibuzhong[0]->content;?>
+										<?php endif;?>
+										<span style="font-size:16px; color:#666666;">7x12小时专心服务，请通过任意方式联系我们</span>
+                                    <div style="margin-right:-400px; margin-top:-100px; " >
+										<!--<?php if(isset($cidibuzuo[0])):?>
+											<?php echo $cidibuzuo[0]->content;?>
+										<?php endif;?>-->
+										<span style="float:left; margin-left:680px; color:#222222;">大型合作：market@newperse.cn</span><br/>
+										<span style="float:left; margin-left:680px; color:#222222;">微信公众号：persejuice</span><br/>
+										<span style="float:left; margin-left:680px; color:#222222;">客服热线：4006-801-201</span><br/>
+									</div>
 								</div>
-								<div class="better_me" style="margin-top:-26px;">
+
+
+								
+								<!-- <div class="better_me" style="margin-top:-26px;">
 									<?php if(isset($cidibuyou[0])):?>
 										<?php echo $cidibuyou[0]->content;?>
 									<?php endif;?>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="friendly_link">
 							<ul>
-								<li><a href="/home/aboutus">关于沛时</a></li>
-								<li><a href="/home/contactus">联系我们</a></li>
-								<li><a href="/home/help">帮助中心</a></li>
-								<li><a href="/home/brand">品牌活动</a></li>
-								<li><a href="http://www.heyjuice.cn/Delivery/index"></a></li>
+								<li><a href="/home/aboutus" style="color: #666666; font-size:16px;">关于沛时</a></li>
+								<li><a href="/home/contactus" style="color: #666666; font-size:16px;">联系我们</a></li>
+								<li><a href="/home/help" style="color: #666666; font-size:16px;">帮助中心</a></li>
+								<li><a href="/home/brand" style="color: #666666; font-size:16px;">品牌活动</a></li>
+								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
-							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px; color:#aaaaaa;">
 			               	   <!--  <p>北京沛时之初饮品有限公司&nbsp&nbsp&nbsp&nbsp京ICP备14012740号 ©沛时 2014&nbsp&nbsp&nbsp&nbsp海淀区上地十街1号院1号楼辉煌国际大厦1609室 </p> -->
 			               	    <p>
 			               	    	<?php if(isset($dibu[0])):?>
