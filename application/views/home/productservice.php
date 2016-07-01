@@ -82,7 +82,7 @@ var NTKF_PARAM = {
 	</div>
 	<?php if(count($productservice2)>0):?>
 	<div class="technics_content_1">
-		<img style="display: inline;" src="<?php echo $productservice2[0]->thumbnail;?>" class="lazy" data-original="images/pro_banner.jpg" alt="" width="100%">
+		<img style="display: inline;" src="<?php echo $productservice2[0]->thumbnail;?>" class="lazy"  alt="" width="100%">
 	</div>
 	<?php endif;?>
 	<?php if(count($productservice3)>0):?>
