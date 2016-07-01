@@ -546,9 +546,9 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .details_flex td span{font-size: 24px; color: #ff585d;}
 /*产品工艺*/
 .technics_content_1{position: relative;}
-.technics_content_1 h2{position: absolute; top: 45%; left: 40%; font-size: 36px; color: #ffffff;}
+.technics_content_1 h2{position: absolute; top: 30%; left: 45%; font-size: 36px; color: #ffffff;}
 .technics_content_2{position: relative;}
-.technics_content_2 h2{position: absolute; top: 45%; left: 40%; font-size: 36px; color: #ffffff;}
+.technics_content_2 h2{position: absolute; top: 45%; left: 45%; font-size: 36px; color: #ffffff;}
 .technics_content_2 p{color: #fff; position: absolute; width: 480px; left: 57%; top: 50%; font-size: 18px; line-height: 30px;}
 .technics_content_7{height:155px; padding-top: 80px; line-height: 30px; font-size: 16px; color: #fff; text-align: center; background:#ffffff ;}
 .technics_content_7 p{width: 810px; margin: 0 auto; text-align: left; color:#666666;}
