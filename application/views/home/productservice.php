@@ -154,13 +154,13 @@ var NTKF_PARAM = {
 								<li><a href="/home/brand" style="color: #666666; font-size:16px;">品牌活动</a></li>
 								<li><a href="http://www.heyjuice.cn/Delivery/index"></a></li>
 							</ul>
-							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
-			               		<p>
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px; color:#aaaaaa;">
+			               	    <p>
 			               	    	<?php if(isset($dibu[0])):?>
 										<?php echo $dibu[0]->content;?>
 									<?php endif;?>
 								</p>
-			               	</div>
+	                       	</div>
 						</div>
 					</div>
 	<!-- 弹出层 -->

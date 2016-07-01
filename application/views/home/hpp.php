@@ -44,10 +44,10 @@ var NTKF_PARAM = {
 				<div class="header_bar HeaderBar">
 					<ul>
 						<li><a class="this" href="/" style="color:#222222;">首页</a></li>
-							<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
-							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
-							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
-							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
+						<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+						<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+						<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+						<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 					</ul>
 					<div class="shoping_car">
 						<a class="ShoppingCarLink" href="http://www.heyjuice.cn/ShoppingCar">
@@ -112,7 +112,7 @@ var NTKF_PARAM = {
 								<li><a href="/home/brand" style="color: #666666; font-size:16px;">品牌活动</a></li>
 								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
-							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;color:#aaaaaa;" >
 			               		<p>
 			               	    	<?php if(isset($dibu[0])):?>
 										<?php echo $dibu[0]->content;?>
