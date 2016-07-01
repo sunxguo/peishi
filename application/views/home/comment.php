@@ -69,8 +69,10 @@
 								</a>
 							</div>
 							<div class="comments_list_text"><?php echo $comment->title;?></div>
-							<img alt="real_tdy" src="<?php echo $comment->authorAvatar;?>">
-							<div class="comments_list_text"><?php echo $comment->author;?></div>
+							<div>
+								<img alt="real_tdy" src="<?php echo $comment->authorAvatar;?>" style="padding-left:10px;">
+								<div style="margin-top:10px;"><?php echo $comment->author;?></div>
+							</div>
 						</li>
 						<?php endforeach;?>
 			<!-- <li style="display: list-item; position: absolute; top: 10px; left: 265px;">
