@@ -154,7 +154,7 @@
 										<a class="comments_list_img" href=""><img alt="玛格丽特公主 " src="<?php echo $qds->thumbnail?>"></a>
 										<a class="comments_list_avatar" href=""><img src="<?php echo $qds->authorAvatar;?>"></a>
 									</div>
-									<div class="comments_list_text"><?php echo $qds->content?></div>
+									<div class="comments_list_text1"><?php echo $qds->content?></div>
 									<div class="comments_list_name"><?php echo $qds->summary?></div>
 								</li>
 							<?php endforeach;?>	

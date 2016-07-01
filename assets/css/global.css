@@ -792,6 +792,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 		}
 		.comments_list_content { position: relative;}
 			.comments_list_text { width: 210px; padding: 0 10px 10px 10px; line-height: 180%; border-bottom: 1px solid #aaaaaa;}
+			.comments_list_text1 { width: 210px; padding: 0 10px 10px 10px; line-height: 180%; }
 			.comments_list_name {color: #7ac143; width: 210px; padding: 5px 10px; font-size: 16px;}
 			.comments_list_img img { width: 100%; }
 			.comments_list_avatar {border: 3px solid #DDDDDD;border-radius: 33px; width: 60px; box-shadow: 0 2px 2px #666666;display: block;height: 60px;position: absolute;right: 10px;bottom: -30px;width: 60px;}
