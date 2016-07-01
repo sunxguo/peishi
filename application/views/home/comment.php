@@ -68,7 +68,6 @@
 									<img alt="real_tdy" src="<?php echo $comment->thumbnail;?>">
 								</a>
 							</div>
-							<!-- <div class="comments_list_name"><?php echo $comment->author;?></div> -->
 							<div class="comments_list_text"><?php echo $comment->summary;?></div>
 							<img alt="real_tdy" src="<?php echo $comment->authorAvatar;?>">
 						</li>
