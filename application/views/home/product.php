@@ -222,7 +222,7 @@ $(function(){
 								<li><a href="/home/brand" style="color: #666666; font-size:16px;">品牌活动</a></li>
 								<!-- <li><a href="http://www.heyjuice.cn/Delivery/index"></a></li> -->
 							</ul>
-							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px;">
+							<div class="f12 mt30 mb10" style="width:950px; margin-left:auto; margin-right:auto; margin-top:10px; color:#aaaaaa;">
 			               	    <!-- <p>北京沛时之初饮品有限公司&nbsp&nbsp&nbsp&nbsp京ICP备14012740号 ©沛时 2014&nbsp&nbsp&nbsp&nbsp海淀区上地十街1号院1号楼辉煌国际大厦1609室 </p> -->
 			               	    <p>
 			               	    	<?php if(isset($dibu[0])):?>
