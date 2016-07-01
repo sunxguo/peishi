@@ -27,14 +27,14 @@
 	<script src="index_files/userinfo.php" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="lang" src="/assets/js/zh_cn.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="chatManage" src="/assets/js/chat.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="Window" src="/assets/js/nt2.js" charset="utf-8" async="async" type="text/javascript"></script></head>
 	<body>
 		<div class="wrap Wrap">
-			<div class="navtop">
+			<!-- <div class="navtop">
 				<div class="navtop_box">
 									<div class="login_bar">
 						
 					</div>
 									<div class="navtop_info">沛于己，时在行!</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="header ">
 				<div class="heard_warp clearfix">
 					<div class="logo">
@@ -43,11 +43,11 @@
 					</div>
 					<div class="header_bar HeaderBar">
 						<ul>
-							<li><a class="this" href="/">首页</a></li>
-							<li><a class="" href="/home/productlist">产品</a></li>
-							<li><a class="" href="/home/comment">论坛</a></li>
-							<li><a class="" href="/home/brand">品牌活动</a></li>
-							<li><a class="" href="/home/service">品牌理念</a></li>
+							<li><a class="this" href="/" style="color:#222222;">首页</a></li>
+							<li><a class="" href="/home/service" style="color:#222222;">品牌理念</a></li>
+							<li><a class="" href="/home/productlist" style="color:#222222;">产品</a></li>
+							<li><a class="" href="/home/brand" style="color:#222222;">品牌活动</a></li>
+							<li><a class="" href="/home/comment" style="color:#222222;">论坛</a></li>
 						</ul>
 						<div class="shoping_car">
 							<a class="ShoppingCarLink" href="">
@@ -57,8 +57,8 @@
 					
 				</div>
 			</div>
-							<div class="about_nav">
-				<a href="/home/aboutus" class="this">关于我们</a>
+			<div class="about_nav" style="border-top: 1px solid #7ac143;">
+				<a href="/home/aboutus" style="color:#8ac354;">关于我们</a>
 				<a href="/home/contactus" class="">联系我们</a>
 			</div>
 							<div class="main">
