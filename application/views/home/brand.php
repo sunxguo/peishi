@@ -69,7 +69,7 @@ var NTKF_PARAM = {
 		<?php foreach($pinpaihuodong as $pphd):?>
 		<a href="/home/essay?id=<?php echo $pphd->id;?>">
 			<img src="/assets/images/3.png" class="pngbox" width="500px;">
-			<img src="<?php echo $pphd->thumbnail;?>" width="500px;">
+			<img src="<?php echo $pphd->thumbnail;?>" width="500px;" height="320px;">
 			<div class="blog_info">
 				<p class="blog_data"><?php echo date('Y-m-d',strtotime($pphd->time));?></p>
 				<p class="blog_tit"><?php echo $pphd->title;?></p>
