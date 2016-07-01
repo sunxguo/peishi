@@ -70,6 +70,7 @@
 							</div>
 							<div class="comments_list_text"><?php echo $comment->title;?></div>
 							<img alt="real_tdy" src="<?php echo $comment->authorAvatar;?>">
+							<div class="comments_list_text"><?php echo $comment->author;?></div>
 						</li>
 						<?php endforeach;?>
 			<!-- <li style="display: list-item; position: absolute; top: 10px; left: 265px;">
