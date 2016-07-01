@@ -78,7 +78,7 @@ var NTKF_PARAM = {
 	</div>
 	<div class="contact_content_3">
 		<h2>合作品牌／媒体</h2>
-		<img src="/assets/images/about_icon_1.jpg">
+		<img src="/assets/images/about_icon_1.png">
 	</div>
 </div>
 		</div>
