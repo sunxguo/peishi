@@ -28,19 +28,19 @@ var NTKF_PARAM = {
 <script src="index_files/userinfo.php" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="lang" src="/assets/js/zh_cn.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="chatManage" src="/assets/js/chat.js" charset="utf-8" async="async" type="text/javascript"></script><script data-requiremodule="Window" src="/assets/js/nt2.js" charset="utf-8" async="async" type="text/javascript"></script></head>
 <body>
 	<div class="wrap Wrap">
-		<div class="navtop">
+		<!-- <div class="navtop">
 			<div class="navtop_box">
 				<div class="login_bar">
 				
 				</div>
 			    <div class="navtop_info">沛于己，时在行!</div>
 			</div>
-		</div>
-		<div class="header ">
+		</div> -->
+		<div class="header "  style="border-bottom: 1px solid #7ac143;">
 			<div class="heard_warp clearfix">
 				<div class="logo">
 					<a href="/"></a>
-					<img src="/assets/images/re_index_logo.png" width="70px">
+					<img src="/assets/images/re_index_logo.png" width="100px">
 				</div>
 				<div class="header_bar HeaderBar">
 					<ul>
@@ -92,7 +92,7 @@ var NTKF_PARAM = {
 			</div>
 		</div>
 	</div>
-	<h3 class="pt30 pb10 pl20">常见问题</h3>
+	<h3 class="pt30 pb10 pl20" style="font-size:24px; color:#666;">常见问题</h3>
 	<div class="qa_list clearfix">
 		<div class="qa_ment QaMent">
 			<div style="top: 0px;" class="QaMentBg"></div>
@@ -101,7 +101,7 @@ var NTKF_PARAM = {
 		<div class="qa_list_link QaList">
 			<ul></ul>
 		</div>
-		<div class="qa_data QaData this">
+		<div class="qa_data QaData this" style="margin-top:17px;">
 			<span></span>
 		</div>
 	</div>

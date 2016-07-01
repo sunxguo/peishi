@@ -611,8 +611,8 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .blog_page a{color: #000;}
 /*常见问题*/
 .qa_main{width: 1000px; margin: 0 auto; padding-bottom: 40px;}
-.qa_main h2{font-size: 24px; line-height: 40px; padding-left: 30px; margin: 0 20px; border-bottom:1px solid #ddd; padding-top: 20px;}
-.qa_icon_box .qa_icon{float: left; margin-top: 20px; margin-left: 10px;cursor: pointer; color: #454545;}
+.qa_main h2{font-size: 24px; line-height: 40px; padding-left: 0px; margin: 0 10px; border-bottom:1px solid #ddd; padding-top: 20px; color:#666666;}
+.qa_icon_box .qa_icon{float: left; margin-top: 20px; margin-left: 5px;cursor: pointer; color: #454545;}
 .qa_icon{position: relative; width: 320px; height: 226px; overflow:hidden;}
 .qa_icon p{line-height: 24px;}
 .qa_icon h3{margin-top: 30px; font-weight: bold;}
@@ -635,9 +635,9 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 .qa_list_link{width: 365px; min-height: 234px;  padding: 10px 0 10px 10px;
  float: left; height: 100%;}
 .qa_list_link li{line-height: 30px; color: #838a8e;}
-.qa_list_link ul{padding: 67px 20px 20px 20px;color: #8d8d8d;}
-.qa_list_link li.this{color: #2ad2c9;}
-.qa_data{float: left; width: 310px;padding:0px 25px 20px 25px;color: #8d9397; height: 370px; overflow-y: auto; line-height: 26px; margin-top: 77px; background: url(http://static.heyjuice.cn/Public/Home/images/qa_bg1.jpg) no-repeat center;}
+.qa_list_link ul{padding: 5px 20px 20px 20px;color: #8d8d8d;}
+.qa_list_link li.this{color: #8bc353;}
+.qa_data{float: left; width: 310px;padding:0px 25px 20px 25px;color: #8d9397; height: 370px; overflow-y: auto; line-height: 26px; margin-top: 77px; }
 .qa_data.this{background: none;}
 .qa_data p{width: 28px; height: 28px; text-align: center; line-height: 28px; background: #2ad2c9; color: #fff; margin-bottom: 10px;}
 .qa_mask_1,.qa_mask_2,.qa_mask_3{width: 307px; height: 214px; text-align: center; line-height: 24px; position: absolute; left: 6px; top: 6px; color: #fff; opacity: 0;} 
