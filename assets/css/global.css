@@ -796,7 +796,7 @@ div.stat_button{height: 60px; font-size: 14px;text-align: right;background: #dce
 			.comments_list_name {color: #7ac143; width: 210px; padding: 5px 10px; font-size: 16px;}
 			.comments_list_name1 {color: #00969E; width: 210px; padding: 5px 10px; font-size: 16px;}
 			.comments_list_img img { width: 100%; }
-			.comments_list_avatar {border: 3px solid #DDDDDD;border-radius: 33px; width: 60px; box-shadow: 0 2px 2px #666666;display: block;height: 60px;position: absolute;right: 10px;bottom: -30px;width: 60px;}
+			.comments_list_avatar {border: 3px solid #DDDDDD;border-radius: 33px; width: 60px; box-shadow: 0 2px 2px #666666;display: block;height: 60px;position: absolute;right: 10px;bottom: 6px;width: 60px;}
 				.comments_list_avatar img { width: 60px; border-radius: 30px;}
 	.order_comments_loading {text-align: center; height: 32px; line-height: 32px; position: relative; padding-bottom: 20px;}
 		.order_comments_loading img { display: inline-block; margin-right: 10px;}
