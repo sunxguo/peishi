@@ -69,8 +69,8 @@
 								</a>
 								
 							</div>
-							<div class="comments_list_name"><?php echo $comment->title;?></div>
-							<div class="comments_list_text"><?php echo $comment->author;?></div>
+							<div class="comments_list_name" style="padding:10px 0 10px 10px;"><?php echo $comment->title;?></div>
+							<div class="comments_list_text1"><?php echo $comment->author;?></div>
 							<a class="comments_list_avatar" target="_blank" href="<?php echo $comment->islink==0?'/home/essay?id='.$comment->id:$comment->link;?>">
 							    <img src="<?php echo $comment->authorAvatar;?>">
 							</a>
