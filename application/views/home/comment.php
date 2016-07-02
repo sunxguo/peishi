@@ -67,12 +67,14 @@
 								<a class="comments_list_img" target="_blank" href="<?php echo $comment->islink==0?'/home/essay?id='.$comment->id:$comment->link;?>">
 									<img alt="real_tdy" src="<?php echo $comment->thumbnail;?>">
 								</a>
-								<a class="comments_list_avatar" target="_blank" href="<?php echo $comment->islink==0?'/home/essay?id='.$comment->id:$comment->link;?>">
-									<img src="<?php echo $comment->authorAvatar;?>">
-								</a>
+								
 							</div>
 							<div class="comments_list_name"><?php echo $comment->title;?></div>
 							<div class="comments_list_text"><?php echo $comment->author;?></div>
+							<a class="comments_list_avatar" target="_blank" href="<?php echo $comment->islink==0?'/home/essay?id='.$comment->id:$comment->link;?>">
+							    <img src="<?php echo $comment->authorAvatar;?>">
+							</a>
+							
 						</li>
 						<?php endforeach;?>
 			<!-- <li style="display: list-item; position: absolute; top: 10px; left: 265px;">
